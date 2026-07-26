@@ -1,12 +1,16 @@
 # Products and Services
 
 ## บริการปัจจุบัน
+- Solar Cell
+- Solar EPC
+- Commercial & Industrial Solar
+- Energy Management
+- Electrical Engineering
 - งานดูแลระบบโรงแรม
 - Internet / IPTV / Telephone
 - Network และ Wi‑Fi
 - CCTV
 - ระบบไฟและ Smart Building
-- Energy Management
 - AI Automation
 
 ## กำลังพัฒนา

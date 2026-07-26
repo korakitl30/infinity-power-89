@@ -27,3 +27,10 @@
 - If the message updates Company Brain data, append dated notes to the relevant files, commit the change, push to GitHub, and reply in Telegram with the commit ID and GitHub sync result.
 - If the message is only a greeting or status check, reply with a concise secretary availability/status acknowledgement.
 - If required credentials, approved chat target, Paperclip task creation, Telegram delivery, or GitHub push fails, escalate the exact failure to CEO/MD and record the blocker in the issue.
+
+## Telegram Resource Control Update - 2026-07-26
+- CEO/MD clarified that the secretary does not need to wait for Telegram replies continuously if doing so wastes tokens or runtime resources.
+- Default mode: process Telegram only during assigned heartbeats, explicit Paperclip wakes, scheduled checks, or a lightweight monitor approved by engineering.
+- Do not run an always-on high-frequency polling loop unless CEO/MD explicitly approves the resource cost.
+- Acknowledge Telegram after actual processing is completed; do not send repeated idle/status pings just to prove the secretary is online.
+- INF-198 remains the engineering path for durable chat-target configuration; its implementation should prefer webhook or low-frequency monitored polling over token-heavy continuous polling.

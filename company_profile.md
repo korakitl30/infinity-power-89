@@ -1,27 +1,75 @@
 # Company Profile
 
-## ชื่อบริษัท
+## Company Name
+
 Infinity Power 89 Co., Ltd.
 
-## ลักษณะธุรกิจ
-บริษัทให้บริการงานระบบและงานดูแลบำรุงรักษาสำหรับโรงแรม อาคาร และธุรกิจ โดยมุ่งเน้นการแก้ปัญหาที่ใช้งานได้จริง และสร้างความสัมพันธ์ระยะยาวกับลูกค้า
+---
 
-## งานหลัก
+## Business Overview
+
+Infinity Power 89 provides engineering services, maintenance, and technology solutions for hotels, commercial buildings, and businesses.
+
+The company focuses on solving real operational problems, building long-term customer relationships, and continuously improving service quality through automation and AI.
+
+---
+
+## Core Services
+
 - Hotel Maintenance
 - Network Infrastructure
 - Internet / IPTV / Telephone
-- CCTV
-- Smart Building และ Energy Management
+- CCTV Systems
+- Smart Building
+- Energy Management
 - AI Automation
-- Website และระบบขาย
+- Website Development
+- Business Digital Transformation
+- Triple play service
+---
 
-## พื้นที่หลัก
-- พัทยา
-- ศรีราชา
-- กรุงเทพฯ
+## Primary Customers
 
-## จุดแข็ง
-- เข้าใจหน้างานจริง
-- แก้ปัญหาได้รวดเร็ว
-- ดูแลลูกค้าระยะยาว
-- ใช้เทคโนโลยีเพิ่มคุณภาพบริการ
+- Hotels
+- Resorts
+- Apartments
+- Commercial Buildings
+- Restaurants
+- Cafés
+- SMEs
+- Hospital
+- Clinic
+---
+
+## Operating Areas
+
+- Pattaya
+- Bangkok
+- Chonburi
+
+---
+
+## Core Strengths
+
+- Fast response
+- Practical engineering experience
+- Long-term customer care
+- Preventive maintenance
+- Automation mindset
+- AI-assisted operations
+
+---
+
+## Company Philosophy
+
+Solve real problems.
+
+Build long-term trust.
+
+Create systems that improve every year.
+
+---
+
+## Long-term Goal
+
+Become one of Thailand's leading AI-driven engineering and maintenance companies while building a scalable team of human experts and AI agents.

@@ -42,6 +42,17 @@
 - Do not send idle acknowledgements between scheduled checks unless there is a new processed update, blocker, or explicit CEO/MD request.
 - Engineering follow-up: INF-199 owns the scheduler/monitor setup for the 4-hour intake cadence and morning follow-up reminders.
 
+## Follow-Up File Maintenance - 2026-07-26
+- `company/follow_up.md` is the canonical follow-up list for CEO/MD and ChatGPT queries.
+- On every Telegram intake, after processing messages, update `company/follow_up.md`:
+  - New assignment → add task to the appropriate priority section (🔴/🟡/🟢).
+  - Completed item → move it to ✅ Completed with the completion date.
+  - Priority change → move task to the new section.
+  - Never duplicate a task; if it already exists, update status in place.
+- Keep task wording short (e.g., "Change Volvo engine oil", "Send Proposal Office 15").
+- Update `Last Updated` timestamp on every write.
+- Commit and push `company/follow_up.md` together with any other Company Brain changes.
+
 ## Telegram Scheduled Routine Implementation - 2026-07-26
 - INF-201 created active Paperclip routine `Secretary Telegram 4-hour intake`, assigned to Infinity Power Executive Secretary, high priority, with schedule trigger `0 */4 * * *` in `Etc/UTC`.
 - INF-201 created active Paperclip routine `Secretary morning follow-up reminder`, assigned to Infinity Power Executive Secretary, high priority, with schedule trigger `0 9 * * *` in `Asia/Bangkok`.

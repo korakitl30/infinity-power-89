@@ -155,3 +155,18 @@ Reviewed Company Brain records and connected Google Drive folder `VOLVO` (`1sgWc
 - Broader Drive search checked for `Volvo พรบ`, `Volvo ประกัน`, `Volvo ภาษี`, and plate `8กฌ 7919`; no newer current insurance or tax evidence was found.
 
 Follow-up needed: MD/vehicle owner should upload or confirm the current voluntary insurance policy, current พ.ร.บ., and current annual tax receipt/sticker evidence before the vehicle-document status can be marked verified current.
+
+## 2026-07-26 Update — Oil-Change Booking Preparation (INF-207)
+
+Booking preparation status: ready to contact the service center after MD confirms the remaining booking inputs.
+
+- Recommended first contact: Volvo Scandinavian Auto Ramintra, phone 02-970-7070.
+- Backup service center: Volvo Phranakorn Ladprao, phone 02-055-8282.
+- Known vehicle identifiers available for booking: Volvo S90, plate 8กฌ 7919 Bangkok, VIN PNVPSBAADJ5041635.
+- Confirmation still required from MD before booking:
+  - Preferred branch: Volvo Scandinavian Auto Ramintra or Volvo Phranakorn Ladprao.
+  - Preferred appointment date and time window.
+  - Current mileage.
+  - License plate confirmation for the booking request.
+  - Service scope: oil change only, or oil change plus full scheduled-service quotation.
+- Suggested booking script once confirmed: request the earliest available oil-change appointment for Volvo S90 plate 8กฌ 7919; ask for estimated service time, oil/filter parts included, total quotation, payment options, and whether any current insurance/tax document is required at drop-off.

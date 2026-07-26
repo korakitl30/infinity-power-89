@@ -142,3 +142,16 @@ Source folder: Google Drive `VOLVO` (`1sgWcBRWv811Bd2v9fWNNR2SN8skpR8yd`), revie
 - Warranty selected: 18 months
 - Warranty expiry written: 31-4-70; operational interpretation remains approximately 2027-04-30 because April has 30 days
 - Note written on card: `Bsg`
+
+## 2026-07-26 Update — Current Document Verification (INF-206)
+
+Reviewed Company Brain records and connected Google Drive folder `VOLVO` (`1sgWcBRWv811Bd2v9fWNNR2SN8skpR8yd`) for current Volvo S90 insurance, compulsory insurance / พ.ร.บ., and annual vehicle-tax documents.
+
+- Verification result: no current documents were found in the available records.
+- Voluntary motor insurance: latest available file is `ประกัน 2565-2566.png`; coverage ended 2023-11-20 at 16:30.
+- Compulsory insurance / พ.ร.บ.: latest available file is `พรบ2566-2567.pdf`; coverage ended 2024-12-04 at 16:30.
+- Annual vehicle tax: latest available payment evidence is `Screen Shot 2566-12-04 at 10.24.10.png`; next tax expiry shown is 2024-02-18.
+- Drive folder contents checked: registration scan, voluntary insurance 2565-2566, พ.ร.บ. 2566-2567, tax payment screenshot dated 2023-12-04, and battery warranty image.
+- Broader Drive search checked for `Volvo พรบ`, `Volvo ประกัน`, `Volvo ภาษี`, and plate `8กฌ 7919`; no newer current insurance or tax evidence was found.
+
+Follow-up needed: MD/vehicle owner should upload or confirm the current voluntary insurance policy, current พ.ร.บ., and current annual tax receipt/sticker evidence before the vehicle-document status can be marked verified current.

@@ -34,3 +34,10 @@
 - Do not run an always-on high-frequency polling loop unless CEO/MD explicitly approves the resource cost.
 - Acknowledge Telegram after actual processing is completed; do not send repeated idle/status pings just to prove the secretary is online.
 - INF-198 remains the engineering path for durable chat-target configuration; its implementation should prefer webhook or low-frequency monitored polling over token-heavy continuous polling.
+
+## Telegram Scheduled Cadence - 2026-07-26
+- CEO/MD approved a resource-saving cadence: check and process Telegram intake every 4 hours.
+- Every morning, send CEO/MD a concise reminder of tasks that need follow-up.
+- Morning follow-up reminders should include open tasks, pending CEO/MD confirmations, and business items marked Follow-up or Pending in the Company Brain.
+- Do not send idle acknowledgements between scheduled checks unless there is a new processed update, blocker, or explicit CEO/MD request.
+- Engineering follow-up: INF-199 owns the scheduler/monitor setup for the 4-hour intake cadence and morning follow-up reminders.

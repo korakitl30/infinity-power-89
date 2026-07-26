@@ -12,3 +12,4 @@
 - Operational note: Telegram bot access was verified and a confirmation message was sent to the single private chat target visible from bot updates.
 - Control required: CEO/MD must confirm that this private Telegram chat is the approved target before relying on it for routine follow-ups.
 - Confirmed: CEO/MD replied "Confirm" through Telegram, approving this chat as the secretary communication target.
+- Company direction from Telegram daily summary: priority is finding customers and generating revenue; do not build a large AI Company system yet; executives will respond to inbound customers directly; AI does not own Sales yet; Sales Manager starts when customers come in; Company Brain remains the main company information source.

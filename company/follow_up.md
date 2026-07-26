@@ -1,0 +1,32 @@
+# Follow Up
+
+Last Updated: 2026-07-26 09:35
+
+## 🔴 High Priority
+
+- [ ] Deploy EastGrid Systems website online (INF-182)
+- [ ] Create Facebook Page EastGrid Systems — Solar + IPTV (INF-183)
+- [ ] Start Outreach Campaign — contact first 10-20 leads (INF-184)
+- [ ] Provide Telegram chat target secret to secretary — CEO/MD action (INF-202)
+
+## 🟡 In Progress
+
+- [ ] Repair secretary Telegram configuration and API credentials (INF-198)
+- [ ] Set up follow-up management system in Company Brain (INF-196)
+
+## 🟢 Waiting
+
+- [ ] Provide LINE OA channel access token — waiting for CEO/MD (INF-22)
+- [ ] Book Volvo S90 oil change — confirm branch, date, mileage, and service scope
+- [ ] Upload client logos and project photos to Google Drive eastgrid folder — CEO/MD action (INF-197)
+
+## ✅ Completed (Last 30 Days)
+
+- [x] Company Brain initialized and synced to GitHub (2026-07-26)
+- [x] Telegram secretary bot configured and approved chat confirmed (2026-07-26)
+- [x] Secretary always-on Telegram heartbeat enabled — 5-min auto-fire (INF-196, 2026-07-26)
+- [x] Secretary Telegram 4-hour intake and morning follow-up routines created (INF-201, 2026-07-26)
+- [x] Volvo S90 oil service center research — shortlist added (INF-194, 2026-07-26)
+- [x] Portfolio and website plan prepared — client/logo inventory brief (INF-197, 2026-07-26)
+- [x] IPTV Hotel Landing Page created (INF-189, 2026-07-25)
+- [x] EastGrid Systems website v1 draft delivered to CEO/MD (INF-186, 2026-07-25)

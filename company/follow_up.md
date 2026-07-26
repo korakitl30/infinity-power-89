@@ -30,3 +30,8 @@ Last Updated: 2026-07-26 09:35
 - [x] Portfolio and website plan prepared — client/logo inventory brief (INF-197, 2026-07-26)
 - [x] IPTV Hotel Landing Page created (INF-189, 2026-07-25)
 - [x] EastGrid Systems website v1 draft delivered to CEO/MD (INF-186, 2026-07-25)
+
+## 2026-07-27 Update
+
+- [ ] Upload remaining Solar portfolio materials to the EastGrid Google Drive folder (INF-236).
+- [ ] Complete details for each Solar portfolio project so the Company Brain and website can reuse them (INF-236).

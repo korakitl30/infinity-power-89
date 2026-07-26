@@ -41,3 +41,9 @@
 - Morning follow-up reminders should include open tasks, pending CEO/MD confirmations, and business items marked Follow-up or Pending in the Company Brain.
 - Do not send idle acknowledgements between scheduled checks unless there is a new processed update, blocker, or explicit CEO/MD request.
 - Engineering follow-up: INF-199 owns the scheduler/monitor setup for the 4-hour intake cadence and morning follow-up reminders.
+
+## Telegram Scheduled Routine Implementation - 2026-07-26
+- INF-201 created active Paperclip routine `Secretary Telegram 4-hour intake`, assigned to Infinity Power Executive Secretary, high priority, with schedule trigger `0 */4 * * *` in `Etc/UTC`.
+- INF-201 created active Paperclip routine `Secretary morning follow-up reminder`, assigned to Infinity Power Executive Secretary, high priority, with schedule trigger `0 9 * * *` in `Asia/Bangkok`.
+- Both routines use `coalesce_if_active` concurrency and `skip_missed` catch-up behavior.
+- The routine descriptions include the approved credential-resolution, Telegram acknowledgement, Paperclip task creation, Company Brain append/commit/push, offset update, and fallback-comment requirements.

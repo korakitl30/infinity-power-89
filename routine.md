@@ -58,3 +58,9 @@
 - INF-201 created active Paperclip routine `Secretary morning follow-up reminder`, assigned to Infinity Power Executive Secretary, high priority, with schedule trigger `0 9 * * *` in `Asia/Bangkok`.
 - Both routines use `coalesce_if_active` concurrency and `skip_missed` catch-up behavior.
 - The routine descriptions include the approved credential-resolution, Telegram acknowledgement, Paperclip task creation, Company Brain append/commit/push, offset update, and fallback-comment requirements.
+
+## Direct Calendar Reminders - 2026-07-26
+- Direct MD Calendar event creation is not active yet.
+- INF-210 confirmed the secretary runtime has no Calendar event creation connector or approved Calendar API OAuth/delegated-access path.
+- INF-224 is the unblock path: Paperclip admin/engineering must provide Calendar-capable access and MD must authorize the correct calendar before the secretary can create events directly.
+- Until then, use Telegram reminders and/or `.ics` files for calendar-style follow-ups.

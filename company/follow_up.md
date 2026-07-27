@@ -1,9 +1,10 @@
 # Follow Up
 
-Last Updated: 2026-07-27 01:08
+Last Updated: 2026-07-28 11:30
 
 ## 🔴 High Priority
 
+- [ ] Upload current Volvo S90 documents — insurance, พ.ร.บ., tax (all expired; legal requirement) (INF-206)
 - [ ] Deploy EastGrid Systems website online (INF-182)
 - [ ] Create Facebook Page EastGrid Systems — Solar + IPTV (INF-183)
 - [ ] Start Outreach Campaign — contact first 10-20 leads (INF-184)

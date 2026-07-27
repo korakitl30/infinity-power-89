@@ -212,7 +212,7 @@ Additional inspection findings:
 
 ## 2026-07-27 Update — John Auto Volvo Service Maintenance Visit
 
-Source: MD update via INF-209, 2026-07-27 08:11 Bangkok time.
+Source: MD update via INF-209, 2026-07-27 **13:54 Bangkok time** (corrected from initial 08:11 timezone error).
 
 ### Service Details
 - Service provider: **John Auto Volvo Service**

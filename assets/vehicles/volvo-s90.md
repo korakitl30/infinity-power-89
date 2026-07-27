@@ -209,3 +209,28 @@ Additional inspection findings:
 ### Documentation
 - 8 photos documenting accident damage and inspection report received via Telegram (update IDs 321540235-321540242, media group 14281090645062061)
 - Photo archival: CEO requested photos be saved to Volvo folder (update ID 321540243)
+
+## 2026-07-27 Update — John Auto Volvo Service Maintenance Visit
+
+Source: MD update via INF-209, 2026-07-27 08:11 Bangkok time.
+
+### Service Details
+- Service provider: **John Auto Volvo Service**
+- Phone: 081 808 9911
+- Address: QJ8J+H5G, Soi Chum Chon Mahat Thai 2 Yaek 2/3, Khlong Chan, Bang Kapi, Bangkok 10240
+- Google Maps rating: 4.9 stars (22 reviews)
+- Business hours: opens 8 AM Monday
+
+### Vehicle Drop-Off
+- Date: 2026-07-27
+- Status: Vehicle left at service center for maintenance
+
+### Scheduled Maintenance Work
+1. **เปลี่ยนน้ำมันเครื่อง** — Engine oil change
+2. **เปลี่ยนยางเพลาขวาหน้า** — Replace front-right CV joint boot
+3. **เช็กผ้าเบรกหลัง** — Check/inspect rear brake pads
+
+### Follow-Up Required
+- Await completion notification from John Auto
+- Collect service invoice and update maintenance record
+- MD note: John Auto location screenshot to be uploaded to Google Drive VOLVO folder (INF-209 comment 2915a54c)

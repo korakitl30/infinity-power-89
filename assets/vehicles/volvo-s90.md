@@ -170,3 +170,42 @@ Booking preparation status: ready to contact the service center after MD confirm
   - License plate confirmation for the booking request.
   - Service scope: oil change only, or oil change plus full scheduled-service quotation.
 - Suggested booking script once confirmed: request the earliest available oil-change appointment for Volvo S90 plate 8กฌ 7919; ask for estimated service time, oil/filter parts included, total quotation, payment options, and whether any current insurance/tax document is required at drop-off.
+
+## 2026-07-27 Update — Accident and Repair (Telegram intake)
+
+Source: Telegram message from MD/CEO, 2026-07-27.
+
+### Incident Details
+- Date: 2026-07-27 (27/07/2026)
+- Type: Accident and repair entry to garage
+- Vehicle: Volvo S90
+
+### Accident Circumstances
+- Cause: Vehicle parked on the right side was hit by motorcycle
+- Location of impact: Right rear side door
+- Trigger: Insurance claim opened
+
+### Damage and Repairs From Insurance Claim Report
+Documented damages from insurance claim inspection:
+1. Right rear door — damage from collision
+2. Right rear door bumper trim damage  
+3. Right rear wheel rim damage
+
+Additional inspection findings:
+- Engine oil change needed
+- Front tire tread worn, needs replacement
+- Rear wiper blade missing
+
+### Current Status
+- Vehicle location: In garage for repairs
+- Insurance claim number: ACD001-26-2-187909
+- Claim notification date: 27/07/2026
+- Open task status: Waiting for repair completion and final invoice
+- Follow-up required: 
+  - Await repair schedule and completion notification from garage
+  - Collect final invoice and repair documentation
+  - Close claim as completed vehicle history record when MD confirms "รับรถแล้ว" (vehicle picked up) or sends invoice
+
+### Documentation
+- 8 photos documenting accident damage and inspection report received via Telegram (update IDs 321540235-321540242, media group 14281090645062061)
+- Photo archival: CEO requested photos be saved to Volvo folder (update ID 321540243)

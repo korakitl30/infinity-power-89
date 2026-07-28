@@ -252,6 +252,7 @@ Source: Secretary follow-up for INF-299, 2026-07-28.
 Source: INF-299 attachment from MD, 2026-07-28.
 
 - Evidence saved locally: `assets/vehicles/volvo-photos/2026-07-28-repair-bill/744486.jpg`
+- Evidence uploaded to Google Drive VOLVO folder as `Volvo S90 John Auto receipt 2026-07-28 INF-299.jpg`
 - Provider: John Auto / จอห์น ออโต้, headquarters address shown as 156/1 ซ.ลาดพร้าว 130 (มหาดไทย 2) ถ.ลาดพร้าว คลองจั่น บางกะปิ กทม. 10240
 - Provider phone numbers shown: 081-808-9911, 081-844-2443; fax 02-731-1684
 - Receipt book / receipt no.: เล่มที่ 086, เลขที่ 4284

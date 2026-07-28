@@ -246,3 +246,26 @@ Source: Secretary follow-up for INF-299, 2026-07-28.
   - Vehicle was left at John Auto Volvo Service on 2026-07-27 for engine oil change, front-right CV joint boot replacement, and rear brake pad inspection.
 - Action taken: Secretary requested MD send the final bill/invoice, completed repair/service details, total amount paid, payment date, and pickup/completion confirmation.
 - Missing item blocking final closeout: final bill/invoice or equivalent payment/repair evidence from MD or John Auto.
+
+## 2026-07-28 Update — John Auto Repair Closeout Receipt (INF-299)
+
+Source: INF-299 attachment from MD, 2026-07-28.
+
+- Evidence saved locally: `assets/vehicles/volvo-photos/2026-07-28-repair-bill/744486.jpg`
+- Provider: John Auto / จอห์น ออโต้, headquarters address shown as 156/1 ซ.ลาดพร้าว 130 (มหาดไทย 2) ถ.ลาดพร้าว คลองจั่น บางกะปิ กทม. 10240
+- Provider phone numbers shown: 081-808-9911, 081-844-2443; fax 02-731-1684
+- Receipt book / receipt no.: เล่มที่ 086, เลขที่ 4284
+- Receipt date shown: 28/07/2569 (2026-07-28)
+- Vehicle/customer field: Volvo S90
+- Total paid: 20,110 บาท
+- Line items recorded from receipt:
+  1. หัวเทียนเครื่อง — 3,300 บาท
+  2. กรองเชื้อ / fuel-related filter (handwriting partially unclear) — 750 บาท
+  3. กรองอากาศ — 1,760 บาท
+  4. กรองแอร์ — 2,900 บาท
+  5. ยางกันฝุ่น + เพลาขับหน้าขวา (handwriting partially unclear; matches prior front-right CV boot work) — 3,600 บาท
+  6. น้ำมันเครื่อง — 4,800 บาท
+  7. ใบปัดน้ำฝนข้างหน้า — 1,800 บาท
+  8. ค่าแรง — 1,200 บาท
+- Closeout status: final receipt received and vehicle maintenance/repair bill recorded.
+- Follow-up note: keep the original receipt image with vehicle evidence; use this entry for future maintenance history and cost reference.

@@ -234,3 +234,15 @@ Source: MD update via INF-209, 2026-07-27 **13:54 Bangkok time** (corrected from
 - Await completion notification from John Auto
 - Collect service invoice and update maintenance record
 - MD note: John Auto location screenshot to be uploaded to Google Drive VOLVO folder (INF-209 comment 2915a54c)
+
+## 2026-07-28 Update — Repair Closeout Pending Final Bill (INF-299)
+
+Source: Secretary follow-up for INF-299, 2026-07-28.
+
+- Closeout status: pending; final bill/invoice and completed repair details are not yet available in Company Brain or latest Telegram intake.
+- Provider on record: John Auto Volvo Service, phone 081 808 9911, Bangkok.
+- Related existing repair/maintenance context:
+  - Accident claim from 2026-07-27 remains recorded under claim number ACD001-26-2-187909.
+  - Vehicle was left at John Auto Volvo Service on 2026-07-27 for engine oil change, front-right CV joint boot replacement, and rear brake pad inspection.
+- Action taken: Secretary requested MD send the final bill/invoice, completed repair/service details, total amount paid, payment date, and pickup/completion confirmation.
+- Missing item blocking final closeout: final bill/invoice or equivalent payment/repair evidence from MD or John Auto.

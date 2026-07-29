@@ -41,3 +41,8 @@ Last Updated: 2026-07-28 11:30
 
 - [ ] Track Samsara / hotel group PO job as รอติดตั้ง (waiting for installation) after MD/CEO confirmed PO upload to Drive via Telegram updates 321540248-321540249 (INF-431).
 - [ ] Prepare order for 1 lamp using MD/CEO Telegram details and reference photos from updates 321540250-321540251 (INF-432).
+
+## 2026-07-30 Update
+
+- [x] Recorded Samsara / hotel group PO job as รอติดตั้ง in Google Sheet `สรุปรายการงาน SAMSARA`, tab `ใบเสนอราคา`, row 32 (INF-431).
+- [ ] Confirm Samsara installation owner, target installation date, site readiness, required materials, and exact uploaded PO reference before dispatch/procurement.

@@ -15,3 +15,7 @@
 - Company direction from Telegram daily summary: priority is finding customers and generating revenue; do not build a large AI Company system yet; executives will respond to inbound customers directly; AI does not own Sales yet; Sales Manager starts when customers come in; Company Brain remains the main company information source.
 - Telegram resource decision: the secretary should not run a continuous token-heavy Telegram waiting loop by default. Use heartbeat/on-demand/scheduled processing or a lightweight engineering-approved monitor, then acknowledge only after real updates are processed.
 - Telegram cadence decision: check and process Telegram intake every 4 hours, and send CEO/MD a morning reminder of tasks that need follow-up.
+
+## 2026-07-29
+- CEO review decision for INF-422: the updated old daily log was rechecked. The Executive Secretary is authorized to create new Paperclip tasks directly when CEO/MD messages contain concrete assignments or clear follow-up work.
+- Control note: the secretary should keep using the existing task-creation rules: create a task immediately for concrete assignments, record the task ID/status in the issue or Telegram reply, and escalate ambiguous business decisions to CEO/MD instead of guessing.

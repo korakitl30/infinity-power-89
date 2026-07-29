@@ -36,3 +36,8 @@ Last Updated: 2026-07-28 11:30
 
 - [ ] Upload remaining Solar portfolio materials to the EastGrid Google Drive folder (INF-236).
 - [ ] Complete details for each Solar portfolio project so the Company Brain and website can reuse them (INF-236).
+
+## 2026-07-29 Update
+
+- [ ] Track Samsara / hotel group PO job as รอติดตั้ง (waiting for installation) after MD/CEO confirmed PO upload to Drive via Telegram updates 321540248-321540249 (INF-431).
+- [ ] Prepare order for 1 lamp using MD/CEO Telegram details and reference photos from updates 321540250-321540251 (INF-432).

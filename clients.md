@@ -24,3 +24,11 @@
 - ปัญหาหลัก
 - สถานะงาน
 - โอกาสขายต่อ
+
+## 2026-07-29 Update
+
+Source: Telegram intake updates 321540248-321540249 from MD/CEO.
+
+- PO evidence was sent by Telegram photo and MD/CEO confirmed the PO has been uploaded to Drive.
+- MD/CEO instructed that this job status should be recorded as "รอติดตั้ง" (waiting for installation).
+- Related open follow-up: INF-426 Samsara hotel group PO verification can move from missing PO evidence to installation-status tracking.

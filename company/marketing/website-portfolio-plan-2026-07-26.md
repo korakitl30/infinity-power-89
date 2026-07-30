@@ -103,3 +103,12 @@ Prepare a practical first-pass portfolio inventory and new website plan for Infi
 
 ## Next Implementation Recommendation
 Build the first website draft with Solar Cell / Solar EPC as the lead service, using anonymized solar and hotel project cards until client names, logos, and project-photo permissions are confirmed. After approval, swap in verified logos, named case studies, and `eastgrid` photos. This allows the site to move toward lead generation immediately while avoiding customer-permission risk.
+
+## 2026-07-30 Update
+
+Follow-up Drive verification for INF-429:
+
+- Search terms `eastgrid` and `East Grid` did not return a visible Drive folder through the connected account.
+- Existing Drive folder `SOLARCELL` remains visible and contains an untitled spreadsheet plus 16 JPG image candidates with numeric file names.
+- These JPG assets can support an anonymized Solar portfolio section only after CEO/MD confirms which project each image group belongs to, whether the project was completed, and whether the photos are approved for public website use.
+- Current website implementation blocker: exact EastGrid folder visibility and photo metadata/permission are still missing.

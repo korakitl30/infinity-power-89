@@ -214,3 +214,15 @@ The company is NOT paying per token today. Both providers are billed as `subscri
 3. **CEO**: Keep on capable model until error state is resolved (model compatibility issue with ChatGPT account)
 4. **Add OPENAI_API_KEY to secrets vault** when moving from ChatGPT account to direct API billing
 5. **Add per-workload cost logging** before and after migration to prove 80% reduction
+
+---
+
+## 2026-08-01 Secretary Follow-Up Update
+
+Secretary audit heartbeat at 2026-08-01T03:51Z:
+
+- Verified the OpenAI cost-control assumptions against official OpenAI documentation on 2026-08-01. Pricing still lists `gpt-5.6-luna` materially cheaper than `gpt-5.6-terra` and `gpt-5.6-sol`; cost optimization docs still point to fewer requests, fewer tokens, Batch API, Flex processing, and prompt caching as cost levers.
+- Local secretary workspace scan found no additional production provider/model configuration beyond the INF-523 audit results above. Local Codex configuration inspected for this company only showed trusted project roots; model cache files appear to be provider/model catalog metadata, not actual company usage or billing records.
+- The secretary runtime could not independently query the Paperclip company secrets endpoint because the endpoint returned authorization denial. Use the INF-523 audit owner results as the current source for secrets inventory.
+- Current status: the 80% reduction target remains unproven as a cash-savings claim because current direct token billing is recorded as subscription-included. Do not approve migration completion until the target is clarified and INF-525 completes the cost/quality pilot.
+- Named unblock owner/action: CEO/MD must clarify whether the 80% reduction target means reducing Paperclip/ChatGPT subscription spend, eliminating Anthropic dependency, or reducing future direct API billing; migration implementation owner (`28f86427-9313-4fa6-bd43-a3dfa9fc1ed5`) must complete routing/logging and pilot comparison.

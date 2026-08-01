@@ -46,3 +46,9 @@ Last Updated: 2026-07-28 11:30
 
 - [x] Recorded Samsara / hotel group PO job as รอติดตั้ง in Google Sheet `สรุปรายการงาน SAMSARA`, tab `ใบเสนอราคา`, row 32 (INF-431).
 - [ ] Confirm Samsara installation owner, target installation date, site readiness, required materials, and exact uploaded PO reference before dispatch/procurement.
+
+## 2026-08-01 Update
+
+- [ ] Audit current AI provider/model usage and last 30 days of AI cost baseline for OpenAI migration target (INF-521).
+- [ ] Implement OpenAI model routing, prompt caching, and spend logging after baseline audit (INF-521).
+- [ ] Run 7-day OpenAI pilot and verify whether the 80% cost-reduction target is met without unacceptable quality loss (INF-521).

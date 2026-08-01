@@ -19,3 +19,8 @@
 ## 2026-07-29
 - CEO review decision for INF-422: the updated old daily log was rechecked. The Executive Secretary is authorized to create new Paperclip tasks directly when CEO/MD messages contain concrete assignments or clear follow-up work.
 - Control note: the secretary should keep using the existing task-creation rules: create a task immediately for concrete assignments, record the task ID/status in the issue or Telegram reply, and escalate ambiguous business decisions to CEO/MD instead of guessing.
+
+## 2026-08-01
+- CEO/MD direction from Telegram assignment INF-521: move company AI usage toward OpenAI with an 80% cost-reduction target.
+- Execution control: do not declare the 80% reduction complete until current AI provider/model usage and monthly baseline cost are audited, OpenAI routing is piloted, and cost/quality metrics are compared.
+- Cost strategy recorded in `company/ai-cost-reduction-openai-2026-08-01.md`: use cheaper OpenAI models for routine work, prompt caching for repeated Company Brain context, and Batch API/Flex processing for eligible asynchronous workloads.

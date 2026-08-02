@@ -13,3 +13,10 @@
 - AI ยังไม่รับหน้าที่ Sales
 - Sales Manager จะเริ่มใช้งานเมื่อมีลูกค้าเข้ามาแล้ว
 - Company Brain ใช้เป็นแหล่งข้อมูลหลักของบริษัท
+
+## Update 2026-08-03
+- Secretary heartbeat: Telegram 4-hour intake complete (0 new messages)
+- 3 issues in blocked state awaiting MD input:
+  - INF-521: OpenAI migration (high priority) — child issues INF-524, INF-525 blocked
+  - INF-206: Volvo S90 document verification — follow-up comment posted
+  - INF-460: Samsara installation confirmation — follow-up comment posted

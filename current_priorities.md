@@ -20,3 +20,10 @@
   - INF-521: OpenAI migration (high priority) — child issues INF-524, INF-525 blocked
   - INF-206: Volvo S90 document verification — follow-up comment posted
   - INF-460: Samsara installation confirmation — follow-up comment posted
+
+## Update 2026-08-04
+- Secretary morning reminder sent to CEO/MD (Telegram message_id 152)
+- 3 blocked issues remain unchanged, awaiting CEO/MD or Founding Engineer input
+- Last CEO/MD Telegram message: 2026-08-03T01:30:00Z (27+ hours ago)
+- No new Telegram messages since reminder dispatch
+- Daily operations nominal, monitoring continues

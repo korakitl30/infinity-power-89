@@ -20,3 +20,12 @@
   - INF-521: OpenAI migration (high priority) — child issues INF-524, INF-525 blocked
   - INF-206: Volvo S90 document verification — follow-up comment posted
   - INF-460: Samsara installation confirmation — follow-up comment posted
+
+## Update 2026-08-04
+- Secretary morning reminder sent (message_id 153)
+- Key pending items:
+  - INF-521 (OpenAI cost reduction): Awaiting Founding Engineer implementation (INF-524) and pilot (INF-525)
+  - INF-206 (Volvo S90): Awaiting MD confirmation of insurance, พ.ร.บ., annual tax documents
+  - INF-460 (Samsara): Awaiting MD confirmation of installation owner, date, PO reference
+  - INF-198 (Secretary runtime repair): In review — credential and Telegram chat target configuration
+- No new Telegram messages since 2026-08-03T01:30:00Z (74+ hours ago)

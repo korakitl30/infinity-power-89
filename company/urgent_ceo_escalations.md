@@ -135,16 +135,61 @@
 
 ---
 
+---
+
+### Issue 4: Secretary Authorization Boundary Blocking Issue Closure (2026-08-03)
+
+**Identified by:** Secretary heartbeat verification  
+**Time:** 2026-08-03 15:26 UTC  
+**Priority:** HIGH  
+**Severity:** Blocking secretary operations for 4 scheduled/completed tasks
+
+**Problem:**
+Secretary runtime completed work on multiple issues but cannot post findings or close them due to Paperclip authorization boundary errors:
+
+**Affected Issues:**
+1. **INF-302 / INF-214**: Secretary completed productivity review but cannot comment/patch INF-214 (403 authorization error)
+2. **INF-563 / INF-519**: Secretary cannot close scheduled intake issue (403 authorization error)
+3. **INF-561 / INF-198**: Secretary completed runtime repair verification but cannot close INF-198 (403 authorization error)
+
+**Error Pattern:**
+- All failures: `403: Issue is outside this actor authorization boundary`
+- Affects: POST /api/issues/{issueId}/comments and PATCH /api/issues/{issueId}
+- Paperclip API auth succeeds (Bearer token valid)
+- Issue: Specific issues marked outside secretary agent authorization scope
+
+**Root Cause:**
+Paperclip system has authorization boundary restrictions preventing the secretary agent from updating/commenting on certain issues, even though:
+- Secretary credentials are valid
+- Paperclip API connection is functional
+- Secretary successfully completed the work
+
+**Paperclip Admin Action Required:**
+**Option 1:** Adjust authorization scopes to allow secretary agent to comment/patch these issues
+**Option 2:** Reassign INF-214, INF-519, INF-198 to secretary agent ownership
+
+**Impact:**
+- Secretary cannot close completed tasks
+- Work findings cannot be documented in issues
+- Task tracking appears incomplete to CEO/MD
+
+**Related Paperclip Issues:**
+- INF-302: Authorization blocker for INF-214 review
+- INF-563: Authorization blocker for INF-519 intake
+- INF-561: Authorization blocker for INF-198 verification
+
+---
+
 ## Status
 
-Three critical issues escalated to CEO. All require CEO decision/action.
+Four critical issues escalated to CEO/Paperclip Admin. All require decision/action.
 
 **Next Steps:**
-1. CEO reviews and acknowledges all three issues
-2. CEO assigns priority/timeline for each
-3. CEO implements fixes or delegates
-4. Secretary validates solutions work
+1. Paperclip admin reviews authorization boundary configuration
+2. Paperclip admin adjusts scopes or reassigns issues
+3. Secretary validates closure capability works
+4. CEO/MD reviews and confirms business blockers (INF-206, INF-460, INF-521)
 5. Close escalations after fixes confirmed
 
 **Created:** 2026-07-27 17:05 (system time UTC+8)  
-**Last Updated:** 2026-08-03 03:36 UTC (Telegram intake — Issue 3 added)
+**Last Updated:** 2026-08-03 15:26 UTC (Secretary heartbeat — Issue 4 added)

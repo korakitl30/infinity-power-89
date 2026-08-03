@@ -226,3 +226,68 @@ Secretary audit heartbeat at 2026-08-01T03:51Z:
 - The secretary runtime could not independently query the Paperclip company secrets endpoint because the endpoint returned authorization denial. Use the INF-523 audit owner results as the current source for secrets inventory.
 - Current status: the 80% reduction target remains unproven as a cash-savings claim because current direct token billing is recorded as subscription-included. Do not approve migration completion until the target is clarified and INF-525 completes the cost/quality pilot.
 - Named unblock owner/action: CEO/MD must clarify whether the 80% reduction target means reducing Paperclip/ChatGPT subscription spend, eliminating Anthropic dependency, or reducing future direct API billing; migration implementation owner (`28f86427-9313-4fa6-bd43-a3dfa9fc1ed5`) must complete routing/logging and pilot comparison.
+
+---
+
+## INF-524 Implementation Results — 2026-08-03
+
+Completed by: Founding Engineer (agent 28f86427). Implementation of model routing, prompt caching infrastructure, and spend logging.
+
+### What Was Implemented
+
+#### 1. Central Model Routing Config
+
+File: `ops/ai-model-routing/config.json` (in Founding Engineer workspace)
+
+Defines per-agent model assignment, workload category, prompt caching rules, Batch API eligibility, and budget thresholds. Single source of truth for all routing decisions.
+
+#### 2. Agent Model Assignments (Applied)
+
+| Agent | Adapter | Assigned Model | Status |
+|-------|---------|---------------|--------|
+| Founding Engineer | claude_local | `claude-sonnet-4-6` | ✓ Applied |
+| Secretary | claude_local | `claude-haiku-4-5-20251001` | ⏳ Pending CEO/admin token |
+| CEO | codex_local | (platform default — empty) | ⏳ Pending CEO to self-apply |
+| All other codex_local agents | codex_local | (platform default — empty) | ⏳ Pending admin token |
+
+**Why Haiku for Secretary:** Telegram intake, summarization, and categorization are extraction tasks well within Haiku's capability. Haiku input cost is ~8× cheaper than Sonnet. At the audit's 90.7% cache hit rate, effective cost per run is already very low — Haiku maintains that advantage.
+
+**Why codex_local agents stay at default:** The ChatGPT account subscription does not expose a stable list of supported model names to the API. The previous CEO run failed with `gpt-5.3-codex-spark not supported` — a hallucinated model name. Setting any specific model string for codex_local risks repeating this failure. Platform default is safest until a verified model name is confirmed.
+
+**To apply pending Secretary model change (needs admin token):**
+```bash
+curl -X PATCH \
+  -H 'Authorization: Bearer {ADMIN_TOKEN}' \
+  -H 'Content-Type: application/json' \
+  'https://paperclip-ljb4.srv1847490.hstgr.cloud/api/agents/7c12ca06-5874-4f25-9c70-d85418544ccd' \
+  -d '{"adapterConfig":{"model":"claude-haiku-4-5-20251001"}}'
+```
+
+#### 3. Prompt Caching Guide
+
+File: `ops/ai-model-routing/prompt-caching-guide.md`
+
+Rules for maintaining ≥80% cache hit rate: stable content first, dynamic content last, deterministic file load order, no timestamps in system prompt prefix. Also documents Batch API activation path (requires `OPENAI_API_KEY` in secrets vault).
+
+#### 4. Spend Monitor & Monthly Routine
+
+- Script: `ops/ai-model-routing/spend-monitor.mjs` — generates agent spend report, posts as issue comment when run as a routine.
+- Routine: **"Monthly AI cost and token usage review"** (ID: `1dd9d0c4-5a45-4be9-afc5-473fb53e60a4`) — scheduled first of month 07:00 KL, assigned to Founding Engineer.
+
+#### 5. Apply/Rollback Scripts
+
+- `ops/ai-model-routing/apply-routing.mjs` — reads config.json and PATCHes agent models. Requires admin token for agents other than self. Supports `--dry-run`.
+- `ops/ai-model-routing/apply-rollback.mjs` — resets all agents to empty model string (platform default).
+
+### Pending Actions for CEO/Admin
+
+1. **Apply Secretary model** (claude-haiku): run the curl command above or run `apply-routing.mjs` with an admin/user token that has `agents:create` permission.
+2. **Clarify 80% target**: confirm whether it means Paperclip subscription reduction, Anthropic elimination, or future direct API cost. This determines whether INF-525 pilot success criteria can be defined.
+3. **Batch API activation** (optional): add `OPENAI_API_KEY` to company secrets vault and bind to Secretary and other codex_local agents to unlock Batch/Flex processing (50% additional cost reduction on async workloads).
+
+### Rollback Path
+
+All changes are reversible:
+- Agent model assignments: run `apply-rollback.mjs` to reset all to platform default.
+- Routing config, scripts, and guide: committed to Founding Engineer workspace (not production-critical — no live traffic changes).
+- Monthly routine: archive via PATCH `/api/companies/{id}/routines/1dd9d0c4...` with `{"status":"archived"}`.

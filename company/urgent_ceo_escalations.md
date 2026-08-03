@@ -88,16 +88,63 @@
 
 ---
 
+### Issue 3: CEO Task Progress Visibility & Admin File Documentation Blocked (2026-08-03)
+
+**Escalated by:** CEO via Telegram message_id 168  
+**Time:** 2026-08-03 03:36 UTC  
+**Priority:** HIGH  
+**Severity:** CEO feedback indicates frustration with task completion visibility
+
+**Problem:**
+- CEO expressed concern: "I give so many orders but don't see work done, only get answers saying 'Received (confirmed)'"
+- CEO needs improved visibility into task completion and progress
+- CEO submitted 3 urgent admin file documentation requests:
+  1. Record Jo-Bear shoe size (37) — photo provided (update_id 321540267)
+  2. Record MD passport info — photo provided (update_id 321540269)
+  3. Archive/document specific file — photo provided (update_id 321540270)
+- **Secretary cannot complete any of these** — all require Google Drive file upload, which is blocked by INF-209 (missing Google Drive MCP)
+
+**Root Causes:**
+1. **INF-209 blocker:** Secretary lacks Google Drive MCP integration; cannot upload files to Drive
+2. **Task tracking:** No dashboard/burndown/status API for CEO to see real-time progress
+3. **Communication gap:** "Received (confirmed)" responses feel passive without visible action or status update
+
+**CEO Action Required:**
+1. **Immediate:** Decide on INF-209 resolution:
+   - Option A: Install/configure Google Drive MCP (technical solution)
+   - Option B: Approve manual upload workaround (CEO/MD uploads, secretary records path in Company Brain)
+   - Option C: Defer file documentation tasks; prioritize other work
+
+2. **Short-term:** Implement task progress visibility:
+   - Daily task status dashboard (e.g., Paperclip board view, summary report, or Gantt chart)
+   - Weekly burndown summary to CEO
+   - Real-time progress API integration
+   - Alternative: CEO reviews Paperclip issue board weekly
+
+3. **Communication:** Clarify expectations on secretary responses (passive acknowledgment vs. active status updates)
+
+**Related:**
+- INF-209: Secretary requires Google Drive MCP for file uploads (currently BLOCKED)
+- CEO feedback: Need better task tracking and progress visibility
+- Secretary Telegram messages (5 new): Including 4 file documentation requests
+
+**Secretary Response Status:**
+- ✅ Documented all messages in Company Brain
+- ✅ Escalated to urgent_ceo_escalations.md (this Issue 3)
+- 🔴 Pending: Telegram response to CEO (awaiting Issue 3 review/triage)
+
+---
+
 ## Status
 
-Both issues escalated to CEO as per MD's explicit request.
+Three critical issues escalated to CEO. All require CEO decision/action.
 
 **Next Steps:**
-1. CEO reviews and acknowledges
-2. CEO assigns priority/timeline
+1. CEO reviews and acknowledges all three issues
+2. CEO assigns priority/timeline for each
 3. CEO implements fixes or delegates
 4. Secretary validates solutions work
-5. Close INF-209 after fixes confirmed
+5. Close escalations after fixes confirmed
 
 **Created:** 2026-07-27 17:05 (system time UTC+8)  
-**Last Updated:** 2026-07-27 17:05 (system time UTC+8)
+**Last Updated:** 2026-08-03 03:36 UTC (Telegram intake — Issue 3 added)

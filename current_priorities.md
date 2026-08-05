@@ -21,18 +21,25 @@
   - INF-206: Volvo S90 document verification — follow-up comment posted
   - INF-460: Samsara installation confirmation — follow-up comment posted
 
-## Update 2026-08-05 06:04 UTC (New Joe message received)
-- **Secretary intake**: New Telegram message from Joe received (update_id 321540295, 06:04 UTC)
-  - Thai: "ให้เลขาเตือน ลงบัญชีชื่อม้า 100,000"
-  - Interpretation: Ambiguous request to record "horse name account" for 100,000 (likely baht)
-  - Status: Clarification requested via Telegram (message_id 229)
-  - Telegram offset updated to 321540295
+## Update 2026-08-05 14:30 UTC (Joe clarification received + task created)
+- **Secretary intake**: Joe clarification response with supporting photos (update_id 321540296-298, 14:30 UTC)
+  - Thai: "ลงบัญชีชื่อม้า ค่าใช้จ่าย บ้านศรีราชา โจอกไปก่อน" 
+  - Translation: Register horse name account expense, Si Racha house, Joe goes first
+  - Status: Clarification successful — supporting photos received, task created
+  - Telegram offset updated to 321540298
+- **NEW ACTIVE TASK INF-786**: Record horse name account expense (Si Racha house)
+  - Assignment: Secretary — business account entry for Si Racha house property
+  - Priority: High
+  - Status: in_progress (ready for processing)
+  - Supporting: 3 photos from Joe (Telegram media group)
+  - Telegram confirmation sent (message_id 234)
 - **Active task INF-783**: Taobao round-lamp test order tracking
   - Order: 7 units test batch × ¥15, seller dispatch deadline 2026-08-07 11:49 Bangkok
   - Status: Blocked on CEO/MD confirmation to proceed with full 178-unit order
-  - Time remaining: ~45.7 hours until deadline
+  - Time remaining: ~41 hours until deadline
+  - Monitoring: Scheduled daily checks through deadline
   - Ready for immediate execution upon CEO/MD dispatch confirmation
-- **CEO/MD communication**: Continuous silence for 128+ hours (last message 2026-08-03T01:30 Bangkok)
+- **CEO/MD communication**: Continuous silence for 130+ hours (last message 2026-08-03T01:30 Bangkok)
 
 ## Update 2026-08-04
 - Secretary morning reminder sent (message_id 153) at 04:35 UTC

@@ -51,6 +51,17 @@ This file tracks business expenses and accounting entries for Infinity Power.
 - Files in Thai and English
 - Various formats: PDF, JPG
 
+## Follow-up Reminder Required
+
+**Action**: Create reminder issue for CEO to record ฿100,000 in FlowAccount
+
+**Issue Details**:
+- Title: "Reminder: Record ฿100,000 income from Mother in FlowAccount"
+- Owner: CEO
+- Priority: high
+- Description: Amount ฿100,000 from Mother (ม้า), company income receipt
+- Reference: INF-799
+
 ---
 
 ## Previous Entry (INF-786 - Superseded)

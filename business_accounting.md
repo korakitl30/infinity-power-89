@@ -4,12 +4,12 @@ This file tracks business expenses and accounting entries for Infinity Power.
 
 ## INF-799: Mother (ม้า) Income and Si Racha House Expenses
 
-**Issue**: INF-799 — Supersedes INF-786 (mistaken horse-name expense interpretation)  
-**CEO Clarification (2026-08-07)**: "ม้า" means Mother  
-**Status**: COMPLETED ✅ (CEO handling FlowAccount separately)
+**Issue**: INF-799 — Supersedes INF-786 (mistaken horse-name expense interpretation)
+**CEO Clarification (2026-08-07)**: "ม้า" means Mother
+**Status**: BLOCKED (Google Sheets API disabled)
 
 ### Task 1: Record ฿100,000 Income from Mother in FlowAccount
-**Status**: CEO HANDLING DIRECTLY ❌
+**Status**: CEO HANDLING DIRECTLY
 
 **CEO Message (2026-08-07 08:22)**: "flowaccount เดี๋ยวผมลงเองครับ แค่ให้ทำ reminder ไว้"
 - CEO will record ฿100,000 income from Mother directly in FlowAccount
@@ -23,7 +23,12 @@ This file tracks business expenses and accounting entries for Infinity Power.
 - **Reference**: INF-799
 
 ### Task 2: Si Racha House Expenses - Google Sheet
-**Status**: VERIFIED ✅
+**Status**: BLOCKED (Sheets API disabled)
+
+**CEO Feedback (2026-08-07 15:26)**: "ผมเชคแล้วไม่เห็นมีอัพเดทรายการครับ"
+- CEO checked and did not see bill entries added to sheet
+- Google Sheets API returns 403 Permission Denied
+- **Required Action**: Enable Sheets API at https://console.developers.google.com/apis/api/sheets.googleapis.com/overview?project=349113066501
 
 **Google Sheet**: https://docs.google.com/spreadsheets/d/1igcCOh56rvOJUH1C9xlW_OJvTyIpViencQAmphdG1b0/edit?usp=drive_link
 **Sheet Name**: บัญชีบ้านศรีราชา (Si Racha House Account)
@@ -35,16 +40,17 @@ This file tracks business expenses and accounting entries for Infinity Power.
 - Total recorded expenses: ~฿428,148.65 THB
 - Categories: Construction materials, labor, electrical, plumbing, paint, fixtures
 
-**Key Entries Verified**:
-| Date | Description | Amount |
-|------|-------------|--------|
-| 07/05/69 | Metal roof sheets + accessories | ฿57,072.09 |
-| 22/05/69 | Roof frame construction | ฿32,500.00 |
-| 02/06/69 | Electricity bill | ฿96.88 |
-| Various | Building materials (multiple) | Various |
+**Bill Files in Drive** (need to be added to sheet):
+- ชักโครกออกเป็นอินฟินิตี้ T04_0810.pdf
+- ใบเสร็จรับเงิน 16-07-69.pdf (multiple)
+- ใบเสร็จรับเงิน 13-07-69.pdf
+- งานเมนเครื่องเติมอากาศชั้น15.pdf (multiple)
+- ใบส่งของแจ้งหนี้ คุณชัยชาญ (18-03-69).pdf
+- ใบเสร็จ_1.jpg, ใบกำกับ_1.jpg
+- And 18+ more image files
 
 ### Task 3: Bill Images Uploaded to Drive
-**Status**: COMPLETE ✅
+**Status**: COMPLETE
 
 **Drive Folder**: Bill (ID: 1GrSaXYADQrZgfs5_ubk37LQfi_iSfyFO)
 - Contains 27+ files including receipts, invoices, and photos

@@ -35,10 +35,20 @@ This file tracks business expenses and accounting entries for Infinity Power.
 **Google Sheet**: https://docs.google.com/spreadsheets/d/1igcCOh56rvOJUH1C9xlW_OJvTyIpViencQAmphdG1b0
 **Drive Folder**: https://drive.google.com/drive/folders/1GrSaXYADQrZgfs5_ubk37LQfi_iSfyFO
 
-**Bill Files Ready to Add** (27+ files in Drive):
-- Receipt PDFs dated 13-07-69, 16-07-69
-- Toilet fixtures, air pump maintenance, Shopee purchases
-- And more image/PDF files
+**Bill Files Ready to Add** (confirmed in Drive folder as of 2026-08-07 19:40 Bangkok):
+
+| File Name | Type |
+|-----------|------|
+| INF-786_horse-account-expense_01_siRacha-house.jpg | Si Racha house |
+| INF-786_horse-account-expense_02_siRacha-house.jpg | Si Racha house |
+| INF-786_horse-account-expense_03_siRacha-house.jpg | Si Racha house |
+| 128578_0.jpg - 128592_0.jpg | Shopee/hardware receipts |
+| 1785054xxx series | Various receipts |
+| KMD9020 แปรงไดร์ผมlaz.png | Lazada |
+| KMD9018 แปรงเซรามิกlaz.png | Lazada |
+| Volvo S90 John Auto receipt 2026-07-28 INF-299.jpg | Auto expense |
+
+**Sub-folders also present**: บ้านพี่โต บางคล้า, วัดบางเป้า บางแสน, บริษัท คิมมาดา, ครัวเติมสุข, บริษัม เอ็นนารา
 
 ### Task 3: Bill Images Uploaded to Drive
 **Status**: COMPLETE ✅

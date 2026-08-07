@@ -2,54 +2,69 @@
 
 This file tracks business expenses and accounting entries for Infinity Power.
 
-## Si Racha House Property Expenses
+## INF-799: Mother (ม้า) Income and Si Racha House Expenses
 
-### 2026-08-05: Building Materials Purchase (Horse Name Account - ชื่อม้า)
+**Issue**: INF-799 — Supersedes INF-786 (mistaken horse-name expense interpretation)  
+**CEO Clarification (2026-08-07)**: "ม้า" means Mother  
+**Status**: PARTIALLY COMPLETE - FlowAccount access blocked
 
-**Status**: Recorded ✅  
-**Date**: 2026-08-05  
-**Transaction Type**: Property expense - Building materials
+### Task 1: Record ฿100,000 Income from Mother in FlowAccount
+**Status**: BLOCKED ❌
 
-**Details:**
-- **Property**: Si Racha House (บ้านศรีราชา)
-- **Category**: Construction/Renovation Materials
-- **Description**: PVC pipes and hardware supplies
+**Required Action**: CEO/MD to provide FlowAccount API credentials
+- FlowAccount API requires client_id and secret from "My Company" menu
+- Documentation: https://developers.flowaccount.com/
+- Without credentials, cannot record company income receipt
 
-**Financial Summary:**
-- **Total Amount**: 14,444.00 THB
-- **Payment Method**: Bank transfer (SCB)
-- **Payment Date**: 2026-08-05 16:23 Bangkok time
-- **Payment Reference**: 20260805OXTBlA5G521ob8kjq
+**Intended Entry**:
+- **Amount**: ฿100,000 THB
+- **From/Payer**: Mother (ม้า)
+- **Account Type**: Company income receipt
+- **Posting Date**: To be confirmed
+- **Reference**: To be generated
 
-**Payment Details:**
-- **From**: นาย กรกฎต์ ก. (Mr. Krok K.)
-- **To**: นาย ชัชสณ ชวยปน (Mr. Chatchon Chuaypan)
-- **Memo**: ค่าวัสดุก่อสร้าง (Building materials expense)
+### Task 2: Si Racha House Expenses - Google Sheet
+**Status**: VERIFIED ✅
 
-**Supporting Documents:**
-1. Hardware House Receipt #1
-   - Date: 05/08/2569 (05 August 2026)
-   - Items: PVC pipes, fittings, construction materials
-   - Amount: 6,668.00 THB
-   - Drive File ID: 1NEzWxI89pTkWo2ku-egcSrsLQriR5NBq
+**Google Sheet**: https://docs.google.com/spreadsheets/d/1igcCOh56rvOJUH1C9xlW_OJvTyIpViencQAmphdG1b0/edit?usp=drive_link
+**Sheet Name**: บัญชีบ้านศรีราชา (Si Racha House Account)
+**Drive Folder**: https://drive.google.com/drive/folders/1GrSaXYADQrZgfs5_ubk37LQfi_iSfyFO
 
-2. Hardware House Receipt #2
-   - Date: 05/08/2569 (05 August 2026)
-   - Items: PVC pipes, fittings, construction materials
-   - Amount: 7,776.00 THB (before tax)
-   - Drive File ID: 1C-sPbfm2jYrSN1diXKkZYGzDpMrHZjT6
+**Verified Content**:
+- 27+ receipt files (PDFs and images) stored in Drive
+- Expense entries from 18/03/69 through 17/07/69
+- Total recorded expenses: ~฿428,148.65 THB
+- Categories: Construction materials, labor, electrical, plumbing, paint, fixtures
 
-3. SCB Bank Transfer Confirmation
-   - Amount: 14,444.00 THB
-   - Transaction ID: 20260805OXTBlA5G521ob8kjq
-   - Drive File ID: 1IusDnYTgXfdu2cv-HG3-wYYMXiMdH8fx
+**Key Entries Verified**:
+| Date | Description | Amount |
+|------|-------------|--------|
+| 07/05/69 | Metal roof sheets + accessories | ฿57,072.09 |
+| 22/05/69 | Roof frame construction | ฿32,500.00 |
+| 02/06/69 | Electricity bill | ฿96.88 |
+| Various | Building materials (multiple) | Various |
 
-**Authorized By**: Joe (authorization provided via Telegram clarification + supporting documents)
+### Task 3: Bill Images Uploaded to Drive
+**Status**: COMPLETE ✅
 
-**Recorded By**: Secretary Agent (7c12ca06-5874-4f25-9c70-d85418544ccd)  
-**Recording Date**: 2026-08-05 (Paperclip issue INF-786)
+**Drive Folder**: Bill (ID: 1GrSaXYADQrZgfs5_ubk37LQfi_iSfyFO)
+- Contains 27+ files including receipts, invoices, and photos
+- Files in Thai and English
+- Various formats: PDF, JPG
 
-**Notes**: 
-- This entry was recorded in response to Joe's Telegram request to register the "horse name account" (ชื่อม้า) expense for Si Racha house property
-- All supporting documentation (3 photos) have been verified and stored in Google Drive
-- Transaction appears to be part of ongoing property maintenance/renovation for Si Racha house
+---
+
+## Previous Entry (INF-786 - Superseded)
+
+### 2026-08-05: Building Materials Purchase (INCORRECTLY Interpreted)
+
+**Note**: This entry was based on mistaken interpretation. CEO clarified that "ม้า" = Mother, not a "horse name account". The actual transaction was:
+- PVC pipes and hardware purchased for Si Racha house
+- This was recorded as an expense in the wrong account
+
+**Correction**: This should have been recorded as income from Mother (฿100,000) and separate house expenses. INF-799 supersedes this entry.
+
+**Supporting Documents** (still valid):
+1. Hardware House Receipt #1 - Amount: 6,668.00 THB (Drive ID: 1NEzWxI89pTkWo2ku-egcSrsLQriR5NBq)
+2. Hardware House Receipt #2 - Amount: 7,776.00 THB (Drive ID: 1C-sPbfm2jYrSN1diXKkZYGzDpMrHZjT6)
+3. SCB Bank Transfer - Amount: 14,444.00 THB (Drive ID: 1IusDnYTgXfdu2cv-HG3-wYYMXiMdH8fx)

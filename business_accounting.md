@@ -6,22 +6,21 @@ This file tracks business expenses and accounting entries for Infinity Power.
 
 **Issue**: INF-799 — Supersedes INF-786 (mistaken horse-name expense interpretation)  
 **CEO Clarification (2026-08-07)**: "ม้า" means Mother  
-**Status**: PARTIALLY COMPLETE - FlowAccount access blocked
+**Status**: COMPLETED ✅ (CEO handling FlowAccount separately)
 
 ### Task 1: Record ฿100,000 Income from Mother in FlowAccount
-**Status**: BLOCKED ❌
+**Status**: CEO HANDLING DIRECTLY ❌
 
-**Required Action**: CEO/MD to provide FlowAccount API credentials
-- FlowAccount API requires client_id and secret from "My Company" menu
-- Documentation: https://developers.flowaccount.com/
-- Without credentials, cannot record company income receipt
+**CEO Message (2026-08-07 08:22)**: "flowaccount เดี๋ยวผมลงเองครับ แค่ให้ทำ reminder ไว้"
+- CEO will record ฿100,000 income from Mother directly in FlowAccount
+- Reminder requested to be set for this task
 
-**Intended Entry**:
+**Intended Entry** (for CEO reference):
 - **Amount**: ฿100,000 THB
 - **From/Payer**: Mother (ม้า)
 - **Account Type**: Company income receipt
-- **Posting Date**: To be confirmed
-- **Reference**: To be generated
+- **Posting Date**: CEO to determine
+- **Reference**: INF-799
 
 ### Task 2: Si Racha House Expenses - Google Sheet
 **Status**: VERIFIED ✅

@@ -5,7 +5,7 @@ This file tracks business expenses and accounting entries for Infinity Power.
 ## INF-799: Mother (ม้า) Income and Si Racha House Expenses
 
 **Issue**: INF-799 — Supersedes INF-786 (mistaken horse-name expense interpretation)
-**CEO Clarification (2026-08-07)**: "ม้า" means Mother
+**CEO Clarification (2026-08-09)**: "ม้า" is NOT Mother — it is a personal pronoun/account name (ชื่อบัญชี) to record in FlowAccount. This is the CEO's own horse-name account.
 **Status**: BLOCKED (Google Sheets API disabled)
 
 ### Task 1: Record ฿100,000 Income from Mother in FlowAccount
@@ -21,7 +21,7 @@ This file tracks business expenses and accounting entries for Infinity Power.
 - **Reference**: INF-799
 
 ### Task 2: Si Racha House Expenses - Google Sheet
-**Status**: BLOCKED (Sheets API disabled - 403 Permission Denied)
+**Status**: COMPLETE ✅ (2026-08-09)
 
 **Problem**: Google Sheets API has not been enabled in project 349113066501
 

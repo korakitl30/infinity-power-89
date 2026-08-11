@@ -58,10 +58,20 @@ This file tracks business expenses and accounting entries for Infinity Power.
 
 ---
 
+## 2026-08-11: Provisional Budget Entry Update
+
+**CEO Message (2026-08-11 10:16 Bangkok)**: "บัญชีลงบันทึก ยอดตั้งเบิก เป็นรายได้ที่เตรียมจะได้รับ"
+- Translation: Account entry - provisioned amount is income to be received
+- **Action**: CEO is registering provisional/pending income entries
+- **Status**: Noted for accounting records
+
+---
+
 ## Outstanding Actions
 
 1. **Enable Google Sheets API** - Required before agent can add bills
 2. **CEO: Record ฿100,000 in FlowAccount** - Personal action requested
+3. **Clarify Document** (2026-08-11) - บริษัท_อินฟินิตี้_พาวเวอร์_89_จำกัด_B_1_บริษัท_หมงพลาซ่า_จำกัด_.pdf destination (Company Brain or Drive folder?)
 
 ---
 

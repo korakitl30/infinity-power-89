@@ -67,11 +67,22 @@ This file tracks business expenses and accounting entries for Infinity Power.
 
 ---
 
+## 2026-08-12: Sriracha House Backhoe Truck Expense - INF-844
+
+**Expense**: Backhoe truck cost (ค่ารถแบลคโฮ) for clearing around Sriracha house (เคลียร์รอบบ้านศรีราชา)
+- **Issue**: INF-844 — ช่วยลงบัญชีบ้าน (Help with home accounting)
+- **Status**: Recorded in Company Brain; pending addition to Google Sheet (Google Sheets API not yet enabled)
+- **Supporting Document**: Receipt image uploaded via INF-844 (Paperclip asset: 53c6da21-3ea4-45dd-be6c-da98d863c9f3)
+- **Action**: To be added to Si Racha House expense sheet once Google Sheets API is enabled
+
+---
+
 ## Outstanding Actions
 
 1. **Enable Google Sheets API** - Required before agent can add bills
 2. **CEO: Record ฿100,000 in FlowAccount** - Personal action requested
 3. **Clarify Document** (2026-08-11) - บริษัท_อินฟินิตี้_พาวเวอร์_89_จำกัด_B_1_บริษัท_หมงพลาซ่า_จำกัด_.pdf destination (Company Brain or Drive folder?)
+4. **Add INF-844 Backhoe Expense to Google Sheet** - Pending Google Sheets API enablement
 
 ---
 

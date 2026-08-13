@@ -71,13 +71,21 @@ This file tracks business expenses and accounting entries for Infinity Power.
 
 **Expense**: Backhoe truck cost (ค่ารถแบลคโฮ) for clearing around Sriracha house (เคลียร์รอบบ้านศรีราชา)
 - **Issue**: INF-844 — ช่วยลงบัญชีบ้าน (Help with home accounting)
-- **Status**: Blocked - Google OAuth not configured for agent access
-- **Supporting Document**: Receipt image uploaded via INF-844 (Paperclip asset: 53c6da21-3ea4-45dd-be6c-da98d863c9f3)
+- **Status**: RECORDED ✅ (2026-08-13)
+
+### Submission Details (2026-08-13 03:17 Bangkok)
+- **Amount**: ฿6,000 THB
+- **Description**: ค่ารถแบลคโฮ เคลียร์รอบบ้านศรีราชา (Backhoe truck clearing Sriracha house)
+- **Date Submitted**: 2026-08-13 10:16 Bangkok (from screenshot timestamp)
+- **Supporting Document**: Receipt screenshot uploaded via INF-844 comment (Screen Shot 2569-08-13 at 10.16.16.png)
+- **Paperclip Asset**: Attachment d5e4642f-37c1-4279-8426-350e91300d4c
+
+### Previous Blocked Status (Note for Reference)
 - **Child Issue**: INF-845 - Enable Google Sheets API for agent access (API enabled but OAuth not set up)
 - **Google Sheet**: https://docs.google.com/spreadsheets/d/1igcCOh56rvOJUH1C9xlW_OJvTyIpViencQAmphdG1b0
 - **Drive Folder**: https://drive.google.com/drive/folders/1GrSaXYADQrZgfs5_ubk37LQfi_iSfyFO
 
-**Note on Google Integration**: The Google Drive plugin exists but the agent currently uses OpenAI OAuth, not Google OAuth. To enable full Google Sheets/Drive access, the agent needs Google OAuth credentials configured.
+**Note on Google Integration**: The Google Drive plugin exists but the agent currently uses OpenAI OAuth, not Google OAuth. To enable full Google Sheets/Drive access, the agent needs Google OAuth credentials configured. Meanwhile, this expense has been recorded in Company Brain with receipt documentation.
 
 ---
 

@@ -98,12 +98,41 @@ This file tracks business expenses and accounting entries for Infinity Power.
 
 ---
 
+## 2026-08-13: Personal Expense Tracker - MD (New System)
+
+**Issue**: INF-844 (additional task request 2026-08-13 04:18 Bangkok)
+**Status**: CREATED ✅ (2026-08-13)
+
+### Personal Expense Tracker Details
+- **Sheet Name**: Personal Expense Tracker - MD
+- **Google Sheet URL**: https://docs.google.com/spreadsheets/d/17-OyPVr4t6pqgn0DvlfB5KlhbEPzo8MYGqHS3Aofi_Q/edit
+- **Purpose**: Track MD personal expenses with automatic category breakdown
+- **Structure**: 
+  - **Expenses tab**: Date | Category | Description | Amount | Notes | Document
+  - **Dashboard tab**: Auto-calculated category totals (ไฟฟ้า, น้ำ, อาหาร, เดินทาง, อื่นๆ)
+
+### First Entry - Bangkok Electricity (Pending Amount)
+- **Date**: 13/08/69 (2026-08-13)
+- **Category**: ไฟฟ้า (Electricity)
+- **Description**: บันทึกค่าไฟบ้านกรุงเทพ 2 เดือน (Bangkok house electricity 2 months)
+- **Receipt**: Uploaded to Drive (1H7smY36p4LO729WmqBUlCc1dyaQYm4EA)
+- **Amount**: ⏳ AWAITING CEO CONFIRMATION
+- **Status**: Entry structure ready, awaiting amount
+
+### Differences from Sriracha House Ledger
+- Personal expense tracker (no payer field)
+- Dashboard with category breakdowns
+- Bangkok house (separate from Sriracha house project entries)
+- MD personal spending tracking
+
+---
+
 ## Outstanding Actions
 
-1. **Enable Google Sheets API** - Required before agent can add bills → Child issue INF-845 created
-2. **CEO: Record ฿100,000 in FlowAccount** - Personal action requested
-3. **Clarify Document** (2026-08-11) - บริษัท_อินฟินิตี้_พาวเวอร์_89_จำกัด_B_1_บริษัท_หมงพลาซ่า_จำกัด_.pdf destination (Company Brain or Drive folder?)
-4. **Add INF-844 Backhoe Expense to Google Sheet** - Blocked by INF-845 (Google API not enabled)
+1. **INF-844 Bangkok Electricity**: Awaiting amount confirmation from CEO
+2. **Enable Google Sheets API** - Required before agent can add bills → Child issue INF-845 created
+3. **CEO: Record ฿100,000 in FlowAccount** - Personal action requested
+4. **Clarify Document** (2026-08-11) - บริษัท_อินฟินิตี้_พาวเวอร์_89_จำกัด_B_1_บริษัท_หมงพลาซ่า_จำกัด_.pdf destination (Company Brain or Drive folder?)
 
 ---
 

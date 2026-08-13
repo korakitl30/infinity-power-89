@@ -67,25 +67,34 @@ This file tracks business expenses and accounting entries for Infinity Power.
 
 ---
 
-## 2026-08-12: Sriracha House Backhoe Truck Expense - INF-844
+## 2026-08-13: Sriracha House Household Expenses - INF-844
 
-**Expense**: Backhoe truck cost (ค่ารถแบลคโฮ) for clearing around Sriracha house (เคลียร์รอบบ้านศรีราชา)
-- **Issue**: INF-844 — ช่วยลงบัญชีบ้าน (Help with home accounting)
-- **Status**: RECORDED ✅ (2026-08-13)
+**Issue**: INF-844 — ช่วยลงบัญชีบ้าน (Help with home accounting)
+**Status**: ONGOING ✅ (Multiple entries recorded 2026-08-13)
 
-### Submission Details (2026-08-13 03:17 Bangkok)
+### Entry 1: Backhoe Truck Clearing (2026-08-13 03:17 Bangkok)
 - **Amount**: ฿6,000 THB
 - **Description**: ค่ารถแบลคโฮ เคลียร์รอบบ้านศรีราชา (Backhoe truck clearing Sriracha house)
-- **Date Submitted**: 2026-08-13 10:16 Bangkok (from screenshot timestamp)
-- **Supporting Document**: Receipt screenshot uploaded via INF-844 comment (Screen Shot 2569-08-13 at 10.16.16.png)
-- **Paperclip Asset**: Attachment d5e4642f-37c1-4279-8426-350e91300d4c
+- **Payer**: โจ (CEO)
+- **Date**: 13/08/69
+- **Sheet Location**: Ledger row 63
+- **Receipt**: Uploaded to Drive (1KIHD2Jqu9SEqDG0X_q1423nKbWOynM0g)
+- **Status**: ✅ Recorded in Google Sheets
 
-### Previous Blocked Status (Note for Reference)
-- **Child Issue**: INF-845 - Enable Google Sheets API for agent access (API enabled but OAuth not set up)
+### Entry 2: Plastering Labor Cost (2026-08-13 03:51 Bangkok)
+- **Amount**: ฿20,000 THB
+- **Description**: ค่าแรงช่างงานปูน (Plastering labor cost)
+- **Payer**: แจ้ (Jae)
+- **Date**: 13/08/69
+- **Sheet Location**: Ledger row 64
+- **Receipt**: Uploaded to Drive (1KfyeoP3ffdFMhJ_cd4S92Nfay_aLLldU)
+- **Status**: ✅ Recorded in Google Sheets
+
+### Sheet Summary
 - **Google Sheet**: https://docs.google.com/spreadsheets/d/1igcCOh56rvOJUH1C9xlW_OJvTyIpViencQAmphdG1b0
 - **Drive Folder**: https://drive.google.com/drive/folders/1GrSaXYADQrZgfs5_ubk37LQfi_iSfyFO
-
-**Note on Google Integration**: The Google Drive plugin exists but the agent currently uses OpenAI OAuth, not Google OAuth. To enable full Google Sheets/Drive access, the agent needs Google OAuth credentials configured. Meanwhile, this expense has been recorded in Company Brain with receipt documentation.
+- **Current Sum Total**: 408,592.65 ฿ (includes both INF-844 entries)
+- **Sum Last Updated**: 2026-08-13 (after plastering labor entry)
 
 ---
 

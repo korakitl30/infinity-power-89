@@ -70,7 +70,7 @@ This file tracks business expenses and accounting entries for Infinity Power.
 ## 2026-08-13: Sriracha House Household Expenses - INF-844
 
 **Issue**: INF-844 — ช่วยลงบัญชีบ้าน (Help with home accounting)
-**Status**: ONGOING ✅ (Multiple entries recorded 2026-08-13)
+**Status**: COMPLETE ✅ (2026-08-13)
 
 ### Entry 1: Backhoe Truck Clearing (2026-08-13 03:17 Bangkok)
 - **Amount**: ฿6,000 THB

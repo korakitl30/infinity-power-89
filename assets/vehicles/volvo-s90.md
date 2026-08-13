@@ -173,7 +173,7 @@ Booking preparation status: ready to contact the service center after MD confirm
 
 ## 2026-07-27 Update — Accident and Repair (Telegram intake)
 
-Source: Telegram message from MD/CEO, 2026-07-27.
+Source: Telegram message from MD, 2026-07-27.
 
 ### Incident Details
 - Date: 2026-07-27 (27/07/2026)
@@ -208,7 +208,7 @@ Additional inspection findings:
 
 ### Documentation
 - 8 photos documenting accident damage and inspection report received via Telegram (update IDs 321540235-321540242, media group 14281090645062061)
-- Photo archival: CEO requested photos be saved to Volvo folder (update ID 321540243)
+- Photo archival: MD requested photos be saved to Volvo folder (update ID 321540243)
 
 ## 2026-07-27 Update — John Auto Volvo Service Maintenance Visit
 

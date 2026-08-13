@@ -20,10 +20,10 @@
 
 ## 2026-07-29 Update
 
-Source: Telegram intake updates 321540248-321540251 from MD/CEO.
+Source: Telegram intake updates 321540248-321540251 from MD.
 
-- Samsara / hotel group PO: PO evidence was provided by Telegram photo and MD/CEO confirmed the PO has been uploaded to Drive. Current requested status: รอติดตั้ง (waiting for installation).
-- One-lamp production/order follow-up: MD/CEO provided lamp details by Telegram message and two reference photos, with instruction to prepare ordering 1 lamp.
+- Samsara / hotel group PO: PO evidence was provided by Telegram photo and MD confirmed the PO has been uploaded to Drive. Current requested status: รอติดตั้ง (waiting for installation).
+- One-lamp production/order follow-up: MD provided lamp details by Telegram message and two reference photos, with instruction to prepare ordering 1 lamp.
 - Follow-up needed: create or update execution tasks for installation tracking and one-lamp procurement/order preparation.
 
 ## 2026-07-30 Update

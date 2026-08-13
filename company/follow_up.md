@@ -15,14 +15,14 @@ Last Updated: 2026-07-28 11:30
 
 ## 🟢 Waiting
 
-- [ ] Provide LINE OA channel access token — waiting for CEO/MD (INF-22)
+- [ ] Provide LINE OA channel access token — waiting for MD (INF-22)
 - [ ] Book Volvo S90 oil change — confirm branch, date, mileage, and service scope
-- [ ] Upload client logos and project photos to Google Drive eastgrid folder — CEO/MD action (INF-197)
+- [ ] Upload client logos and project photos to Google Drive eastgrid folder — MD action (INF-197)
 
 ## ✅ Completed (Last 30 Days)
 
 - [x] Secretary runtime API credential and Telegram chat target verified (INF-198, 2026-07-27)
-- [x] Provide Telegram chat target secret to secretary — CEO/MD action (INF-202, 2026-07-27)
+- [x] Provide Telegram chat target secret to secretary — MD action (INF-202, 2026-07-27)
 - [x] Company Brain initialized and synced to GitHub (2026-07-26)
 - [x] Telegram secretary bot configured and approved chat confirmed (2026-07-26)
 - [x] Secretary always-on Telegram heartbeat enabled — 5-min auto-fire (INF-196, 2026-07-26)
@@ -30,7 +30,7 @@ Last Updated: 2026-07-28 11:30
 - [x] Volvo S90 oil service center research — shortlist added (INF-194, 2026-07-26)
 - [x] Portfolio and website plan prepared — client/logo inventory brief (INF-197, 2026-07-26)
 - [x] IPTV Hotel Landing Page created (INF-189, 2026-07-25)
-- [x] EastGrid Systems website v1 draft delivered to CEO/MD (INF-186, 2026-07-25)
+- [x] EastGrid Systems website v1 draft delivered to MD (INF-186, 2026-07-25)
 
 ## 2026-07-27 Update
 
@@ -39,8 +39,8 @@ Last Updated: 2026-07-28 11:30
 
 ## 2026-07-29 Update
 
-- [ ] Track Samsara / hotel group PO job as รอติดตั้ง (waiting for installation) after MD/CEO confirmed PO upload to Drive via Telegram updates 321540248-321540249 (INF-431).
-- [ ] Prepare order for 1 lamp using MD/CEO Telegram details and reference photos from updates 321540250-321540251 (INF-432).
+- [ ] Track Samsara / hotel group PO job as รอติดตั้ง (waiting for installation) after MD confirmed PO upload to Drive via Telegram updates 321540248-321540249 (INF-431).
+- [ ] Prepare order for 1 lamp using MD Telegram details and reference photos from updates 321540250-321540251 (INF-432).
 
 ## 2026-07-30 Update
 

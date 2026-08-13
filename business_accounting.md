@@ -5,16 +5,16 @@ This file tracks business expenses and accounting entries for Infinity Power.
 ## INF-799: Mother (ม้า) Income and Si Racha House Expenses
 
 **Issue**: INF-799 — Supersedes INF-786 (mistaken horse-name expense interpretation)
-**CEO Clarification (2026-08-09)**: "ม้า" is NOT Mother — it is a personal pronoun/account name (ชื่อบัญชี) to record in FlowAccount. This is the CEO's own horse-name account.
+**MD Clarification (2026-08-09)**: "ม้า" is NOT Mother — it is a personal pronoun/account name (ชื่อบัญชี) to record in FlowAccount. This is the MD's own horse-name account.
 **Status**: BLOCKED (Google Sheets API disabled)
 
 ### Task 1: Record ฿100,000 Income from Mother in FlowAccount
-**Status**: CEO HANDLING DIRECTLY
+**Status**: MD HANDLING DIRECTLY
 
-**CEO Message (2026-08-07 08:22)**: "flowaccount เดี๋ยวผมลงเองครับ แค่ให้ทำ reminder ไว้"
-- CEO will record ฿100,000 income from Mother directly in FlowAccount
+**MD Message (2026-08-07 08:22)**: "flowaccount เดี๋ยวผมลงเองครับ แค่ให้ทำ reminder ไว้"
+- MD will record ฿100,000 income from Mother directly in FlowAccount
 
-**Intended Entry** (for CEO reference):
+**Intended Entry** (for MD reference):
 - **Amount**: ฿100,000 THB
 - **From/Payer**: Mother (ม้า)
 - **Account Type**: Company income receipt
@@ -30,7 +30,7 @@ This file tracks business expenses and accounting entries for Infinity Power.
 2. Wait 2-5 minutes
 3. Comment on issue to retry
 
-**Alternative**: CEO can manually add bills to sheet after last entry (17/07/69)
+**Alternative**: MD can manually add bills to sheet after last entry (17/07/69)
 
 **Google Sheet**: https://docs.google.com/spreadsheets/d/1igcCOh56rvOJUH1C9xlW_OJvTyIpViencQAmphdG1b0
 **Drive Folder**: https://drive.google.com/drive/folders/1GrSaXYADQrZgfs5_ubk37LQfi_iSfyFO
@@ -60,9 +60,9 @@ This file tracks business expenses and accounting entries for Infinity Power.
 
 ## 2026-08-11: Provisional Budget Entry Update
 
-**CEO Message (2026-08-11 10:16 Bangkok)**: "บัญชีลงบันทึก ยอดตั้งเบิก เป็นรายได้ที่เตรียมจะได้รับ"
+**MD Message (2026-08-11 10:16 Bangkok)**: "บัญชีลงบันทึก ยอดตั้งเบิก เป็นรายได้ที่เตรียมจะได้รับ"
 - Translation: Account entry - provisioned amount is income to be received
-- **Action**: CEO is registering provisional/pending income entries
+- **Action**: MD is registering provisional/pending income entries
 - **Status**: Noted for accounting records
 
 ---
@@ -75,7 +75,7 @@ This file tracks business expenses and accounting entries for Infinity Power.
 ### Entry 1: Backhoe Truck Clearing (2026-08-13 03:17 Bangkok)
 - **Amount**: ฿6,000 THB
 - **Description**: ค่ารถแบลคโฮ เคลียร์รอบบ้านศรีราชา (Backhoe truck clearing Sriracha house)
-- **Payer**: โจ (CEO)
+- **Payer**: โจ (MD)
 - **Date**: 13/08/69
 - **Sheet Location**: Ledger row 63
 - **Receipt**: Uploaded to Drive (1KIHD2Jqu9SEqDG0X_q1423nKbWOynM0g)
@@ -116,9 +116,9 @@ This file tracks business expenses and accounting entries for Infinity Power.
 - **Category**: ไฟฟ้า (Electricity)
 - **Description**: บันทึกค่าไฟบ้านกรุงเทพ 2 เดือน (Bangkok house electricity 2 months)
 - **Receipt**: Uploaded to Drive (1H7smY36p4LO729WmqBUlCc1dyaQYm4EA)
-- **Amount**: ⏳ **CEO NEEDS TO CONFIRM AMOUNT** - แจ้งจำนวนเงินด้วยครับ
-- **Status**: Awaiting CEO confirmation
-- **Action Owner**: CEO
+- **Amount**: ⏳ **MD NEEDS TO CONFIRM AMOUNT** - แจ้งจำนวนเงินด้วยครับ
+- **Status**: Awaiting MD confirmation
+- **Action Owner**: MD
 
 ### Differences from Sriracha House Ledger
 - Personal expense tracker (no payer field)
@@ -130,9 +130,9 @@ This file tracks business expenses and accounting entries for Infinity Power.
 
 ## Outstanding Actions
 
-1. **INF-844 Bangkok Electricity**: Awaiting amount confirmation from CEO
+1. **INF-844 Bangkok Electricity**: Awaiting amount confirmation from MD
 2. **Enable Google Sheets API** - Required before agent can add bills → Child issue INF-845 created
-3. **CEO: Record ฿100,000 in FlowAccount** - Personal action requested
+3. **MD: Record ฿100,000 in FlowAccount** - Personal action requested
 4. **Clarify Document** (2026-08-11) - บริษัท_อินฟินิตี้_พาวเวอร์_89_จำกัด_B_1_บริษัท_หมงพลาซ่า_จำกัด_.pdf destination (Company Brain or Drive folder?)
 
 ---
@@ -141,7 +141,7 @@ This file tracks business expenses and accounting entries for Infinity Power.
 
 ### 2026-08-05: Building Materials Purchase (INCORRECTLY Interpreted)
 
-**Note**: This entry was based on mistaken interpretation. CEO clarified that "ม้า" = Mother.
+**Note**: This entry was based on mistaken interpretation. MD clarified that "ม้า" = Mother.
 
 **Supporting Documents**:
 1. Hardware House Receipt #1 - 6,668.00 THB (Drive: 1NEzWxI89pTkWo2ku-egcSrsLQriR5NBq)

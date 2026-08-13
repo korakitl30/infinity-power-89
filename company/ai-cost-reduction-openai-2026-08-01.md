@@ -2,7 +2,7 @@
 
 ## 2026-08-01 Update
 
-Source assignment: INF-521 / Telegram request from CEO/MD: "เปิด task ให้ย้าย ai มาใช้ openai ราคาถูกลง 80%" ("Open a task to move AI to OpenAI and make the price 80% cheaper").
+Source assignment: INF-521 / Telegram request from MD: "เปิด task ให้ย้าย ai มาใช้ openai ราคาถูกลง 80%" ("Open a task to move AI to OpenAI and make the price 80% cheaper").
 
 ### Decision / Direction
 
@@ -56,7 +56,7 @@ Official references checked:
 
 - Current AI provider, exact models, and monthly baseline cost are not yet documented in the Company Brain.
 - A pure provider swap may not reach 80%; savings likely require model routing, prompt compression, caching, and async processing.
-- Some CEO/MD-facing work may need a stronger model than the cheapest option.
+- Some MD-facing work may need a stronger model than the cheapest option.
 
 ### Follow-Up Tasks Suggested
 
@@ -225,7 +225,7 @@ Secretary audit heartbeat at 2026-08-01T03:51Z:
 - Local secretary workspace scan found no additional production provider/model configuration beyond the INF-523 audit results above. Local Codex configuration inspected for this company only showed trusted project roots; model cache files appear to be provider/model catalog metadata, not actual company usage or billing records.
 - The secretary runtime could not independently query the Paperclip company secrets endpoint because the endpoint returned authorization denial. Use the INF-523 audit owner results as the current source for secrets inventory.
 - Current status: the 80% reduction target remains unproven as a cash-savings claim because current direct token billing is recorded as subscription-included. Do not approve migration completion until the target is clarified and INF-525 completes the cost/quality pilot.
-- Named unblock owner/action: CEO/MD must clarify whether the 80% reduction target means reducing Paperclip/ChatGPT subscription spend, eliminating Anthropic dependency, or reducing future direct API billing; migration implementation owner (`28f86427-9313-4fa6-bd43-a3dfa9fc1ed5`) must complete routing/logging and pilot comparison.
+- Named unblock owner/action: MD must clarify whether the 80% reduction target means reducing Paperclip/ChatGPT subscription spend, eliminating Anthropic dependency, or reducing future direct API billing; migration implementation owner (`28f86427-9313-4fa6-bd43-a3dfa9fc1ed5`) must complete routing/logging and pilot comparison.
 
 ---
 

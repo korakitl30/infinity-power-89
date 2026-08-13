@@ -33,7 +33,7 @@ Prepare a practical first-pass portfolio inventory and new website plan for Infi
 | Vogue Hotel Pattaya | Company Brain client list; Drive result `DRAFT-Maintainance-Agreement.docx`; Drive proforma invoice referencing hotel lock system for Vogue Hotel Pattaya | Maintenance and hotel access/lock-system support candidate case | No verified logo asset found by `Vogue logo` | ต้องยืนยัน service scope, customer approval, and asset permission |
 | กลุ่มโรงแรมในพัทยา | Company Brain client list | Use as market positioning only until individual hotel names are confirmed | No logo asset | ต้องยืนยัน hotel names and usage rights |
 | Other Drive logo/image candidates | Drive broad `logo` image search found generic files such as `logo.png`, `logo-small.png`, `logo.jpg`, `hana-logo.jpg`, `logo puderma.png`, and miscellaneous images | Do not use in the first website version unless ownership/client relation is confirmed | Candidate/unattributed only | ต้องยืนยัน owner, client relation, and permission |
-| `eastgrid` upload folder | No accessible Drive folder/file found by `eastgrid` or `east grid` during this pass | Expected future intake source for CEO/MD-uploaded project photos with client names | Not available yet | CEO/MD or secretary should confirm upload completion and exact folder visibility |
+| `eastgrid` upload folder | No accessible Drive folder/file found by `eastgrid` or `east grid` during this pass | Expected future intake source for MD-uploaded project photos with client names | Not available yet | MD or secretary should confirm upload completion and exact folder visibility |
 
 ## Recommended First Website Structure
 
@@ -60,7 +60,7 @@ Prepare a practical first-pass portfolio inventory and new website plan for Infi
 ### 3. Solar Portfolio
 - Start with a controlled case card from the Drive `SOLARCELL` assets:
   - "Solar Cell 10kW 3P project" - pending confirmation of client name, completion status, and approved photos
-- Use project photos only after CEO/MD confirms which images belong to which client and whether the project can be public.
+- Use project photos only after MD confirms which images belong to which client and whether the project can be public.
 - Do not publish pricing from quotations.
 
 ### 4. Hotel Systems Portfolio
@@ -79,7 +79,7 @@ Prepare a practical first-pass portfolio inventory and new website plan for Infi
 - ใช้เทคโนโลยีเพื่อทำให้งานบริการชัดเจนขึ้น
 
 ### 6. Contact
-- Simple contact path to CEO/MD or approved sales contact.
+- Simple contact path to MD or approved sales contact.
 - Do not position AI as live sales owner yet, per current priority note.
 
 ## Content Rules for Website Draft
@@ -110,5 +110,5 @@ Follow-up Drive verification for INF-429:
 
 - Search terms `eastgrid` and `East Grid` did not return a visible Drive folder through the connected account.
 - Existing Drive folder `SOLARCELL` remains visible and contains an untitled spreadsheet plus 16 JPG image candidates with numeric file names.
-- These JPG assets can support an anonymized Solar portfolio section only after CEO/MD confirms which project each image group belongs to, whether the project was completed, and whether the photos are approved for public website use.
+- These JPG assets can support an anonymized Solar portfolio section only after MD confirms which project each image group belongs to, whether the project was completed, and whether the photos are approved for public website use.
 - Current website implementation blocker: exact EastGrid folder visibility and photo metadata/permission are still missing.

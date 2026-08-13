@@ -1,6 +1,6 @@
-# CEO Urgent Escalations
+# MD Urgent Escalations
 
-## 2026-07-27 — Critical Issues Requiring CEO Intervention
+## 2026-07-27 — Critical Issues Requiring MD Intervention
 
 ### Issue 1: Google Drive Upload Capability Missing
 
@@ -30,10 +30,10 @@
    - Requires Airtable as intermediary
 
 3. **Manual upload workaround**
-   - CEO or MD uploads manually
+   - MD uploads manually
    - Secretary records Drive path in Company Brain
 
-**CEO Action Required:**
+**MD Action Required:**
 - Choose solution approach
 - Install/configure necessary tools
 - Test upload capability
@@ -70,7 +70,7 @@
 - Telegram send mechanism triggering duplicates?
 - Calendar reminder system separate from secretary reminder?
 
-**CEO Action Required - IMMEDIATE:**
+**MD Action Required - IMMEDIATE:**
 - **STOP the reminder loop** - killing process/cron job if needed
 - Debug reminder delivery mechanism
 - Check scheduled job configuration  
@@ -88,17 +88,17 @@
 
 ---
 
-### Issue 3: CEO Task Progress Visibility & Admin File Documentation Blocked (2026-08-03)
+### Issue 3: MD Task Progress Visibility & Admin File Documentation Blocked (2026-08-03)
 
-**Escalated by:** CEO via Telegram message_id 168  
+**Escalated by:** MD via Telegram message_id 168  
 **Time:** 2026-08-03 03:36 UTC  
 **Priority:** HIGH  
-**Severity:** CEO feedback indicates frustration with task completion visibility
+**Severity:** MD feedback indicates frustration with task completion visibility
 
 **Problem:**
-- CEO expressed concern: "I give so many orders but don't see work done, only get answers saying 'Received (confirmed)'"
-- CEO needs improved visibility into task completion and progress
-- CEO submitted 3 urgent admin file documentation requests:
+- MD expressed concern: "I give so many orders but don't see work done, only get answers saying 'Received (confirmed)'"
+- MD needs improved visibility into task completion and progress
+- MD submitted 3 urgent admin file documentation requests:
   1. Record Jo-Bear shoe size (37) — photo provided (update_id 321540267)
   2. Record MD passport info — photo provided (update_id 321540269)
   3. Archive/document specific file — photo provided (update_id 321540270)
@@ -106,32 +106,32 @@
 
 **Root Causes:**
 1. **INF-209 blocker:** Secretary lacks Google Drive MCP integration; cannot upload files to Drive
-2. **Task tracking:** No dashboard/burndown/status API for CEO to see real-time progress
+2. **Task tracking:** No dashboard/burndown/status API for MD to see real-time progress
 3. **Communication gap:** "Received (confirmed)" responses feel passive without visible action or status update
 
-**CEO Action Required:**
+**MD Action Required:**
 1. **Immediate:** Decide on INF-209 resolution:
    - Option A: Install/configure Google Drive MCP (technical solution)
-   - Option B: Approve manual upload workaround (CEO/MD uploads, secretary records path in Company Brain)
+   - Option B: Approve manual upload workaround (MD uploads, secretary records path in Company Brain)
    - Option C: Defer file documentation tasks; prioritize other work
 
 2. **Short-term:** Implement task progress visibility:
    - Daily task status dashboard (e.g., Paperclip board view, summary report, or Gantt chart)
-   - Weekly burndown summary to CEO
+   - Weekly burndown summary to MD
    - Real-time progress API integration
-   - Alternative: CEO reviews Paperclip issue board weekly
+   - Alternative: MD reviews Paperclip issue board weekly
 
 3. **Communication:** Clarify expectations on secretary responses (passive acknowledgment vs. active status updates)
 
 **Related:**
 - INF-209: Secretary requires Google Drive MCP for file uploads (currently BLOCKED)
-- CEO feedback: Need better task tracking and progress visibility
+- MD feedback: Need better task tracking and progress visibility
 - Secretary Telegram messages (5 new): Including 4 file documentation requests
 
 **Secretary Response Status:**
 - ✅ Documented all messages in Company Brain
 - ✅ Escalated to urgent_ceo_escalations.md (this Issue 3)
-- 🔴 Pending: Telegram response to CEO (awaiting Issue 3 review/triage)
+- 🔴 Pending: Telegram response to MD (awaiting Issue 3 review/triage)
 
 ---
 
@@ -171,7 +171,7 @@ Paperclip system has authorization boundary restrictions preventing the secretar
 **Impact:**
 - Secretary cannot close completed tasks
 - Work findings cannot be documented in issues
-- Task tracking appears incomplete to CEO/MD
+- Task tracking appears incomplete to MD
 
 **Related Paperclip Issues:**
 - INF-302: Authorization blocker for INF-214 review
@@ -182,13 +182,13 @@ Paperclip system has authorization boundary restrictions preventing the secretar
 
 ## Status
 
-Four critical issues escalated to CEO/Paperclip Admin. All require decision/action.
+Four critical issues escalated to MD/Admin. All require decision/action.
 
 **Next Steps:**
 1. Paperclip admin reviews authorization boundary configuration
 2. Paperclip admin adjusts scopes or reassigns issues
 3. Secretary validates closure capability works
-4. CEO/MD reviews and confirms business blockers (INF-206, INF-460, INF-521)
+4. MD reviews and confirms business blockers (INF-206, INF-460, INF-521)
 5. Close escalations after fixes confirmed
 
 **Created:** 2026-07-27 17:05 (system time UTC+8)  

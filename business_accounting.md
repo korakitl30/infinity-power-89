@@ -116,8 +116,9 @@ This file tracks business expenses and accounting entries for Infinity Power.
 - **Category**: ไฟฟ้า (Electricity)
 - **Description**: บันทึกค่าไฟบ้านกรุงเทพ 2 เดือน (Bangkok house electricity 2 months)
 - **Receipt**: Uploaded to Drive (1H7smY36p4LO729WmqBUlCc1dyaQYm4EA)
-- **Amount**: ⏳ AWAITING CEO CONFIRMATION
-- **Status**: Entry structure ready, awaiting amount
+- **Amount**: ⏳ **CEO NEEDS TO CONFIRM AMOUNT** - แจ้งจำนวนเงินด้วยครับ
+- **Status**: Awaiting CEO confirmation
+- **Action Owner**: CEO
 
 ### Differences from Sriracha House Ledger
 - Personal expense tracker (no payer field)

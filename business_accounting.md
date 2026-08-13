@@ -128,12 +128,77 @@ This file tracks business expenses and accounting entries for Infinity Power.
 
 ---
 
+---
+
+## INF-782: L6 Round-Lamp Test Order Margin Calculation
+
+**Issue**: INF-782 — Finance: record Taobao round-lamp test order and calculate margin for INF-781
+**Status**: in_progress (awaiting exchange rate and logistics inputs)
+**Created**: 2026-08-13
+
+### Order Data
+- **Taobao Order ID**: 5127311018371139829
+- **Product**: Gold + cream-glass LED exposed-light round ceiling lamp
+- **Test quantity**: 7 units × ¥15 = ¥105 (paid 2026-08-05)
+- **Customer Quotation**: QT20260508001 (08/05/2026) — L6 round ceiling lamp, 185 units × ฿400 = ฿74,000 before VAT
+
+### Revenue (L6 - Full Order 185 units)
+| Item | Amount |
+|------|--------|
+| Ex-works sale price (185 × ฿400) | ฿74,000 |
+| VAT 7% | ฿5,180 |
+| **Total incl VAT** | **฿79,180** |
+
+### Expenses (PROVISIONAL - Test Order 7 units)
+| Item | Amount | Status |
+|------|--------|--------|
+| Goods cost (¥105) | ฿546 @ 5.20 THB/CNY | PROVISIONAL |
+| Cross-border freight | TBD | MISSING |
+| Import duty (~30%) | TBD | MISSING |
+| Domestic VAT | TBD | MISSING |
+| **All-in landed cost per unit** | **~฿78+** | **PROVISIONAL** |
+
+### Margin Summary (PROVISIONAL)
+| Metric | Value |
+|--------|-------|
+| Revenue per L6 unit (ex VAT) | ฿400 |
+| Implied full order revenue | ฿74,000 |
+| Estimated all-in cost (185 units) | ~฿14,429 |
+| **Gross margin (full order)** | **~฿59,571** |
+| **Margin per unit** | **~฿322/unit** |
+
+### Missing Inputs Required
+1. **CNY to THB exchange rate** on payment date (2026-08-05 or actual deduction date)
+2. **Cross-border freight cost** (China to Thailand consolidated sea freight quote)
+3. **Import duty rate** and customs valuation method
+4. **VAT treatment** in Thailand (recoverable input tax or cost)
+5. **Payment evidence** (Alipay/WeChat/bank record for ¥105 deduction)
+
+### MD Request (2026-08-13)
+**Request**: "บัญชีช่วยสร้าง google sheet คำนวณให้ผมเห็นทั้งรายรับ ค่าใช้จ่าย ของงานนี้ให้ทีครับ"
+**Translation**: Create a Google Sheet showing income and expenses for this job
+
+**Blocker**: Google Sheets API is not enabled in Google Cloud project `349113066501`. Agent cannot create sheets programmatically.
+**Unblock Owner**: MD
+**Unblock Action**: Enable Sheets API at https://console.developers.google.com/apis/api/sheets.googleapis.com/overview?project=349113066501
+
+**Workaround Created**: Markdown income/expense sheet at `/paperclip/company-brain/finance/INF-782_L6_Margin_Sheet.md` — MD can manually create Google Sheet from this data or enable API for agent automation.
+
+**INF-782 Status**: `blocked` — waiting for MD to enable Google Sheets API
+
+### Output Files
+- **CSV**: `/paperclip/company-brain/finance/INF-782_L6_RoundLamp_Margin_Calculation.csv`
+- **Markdown Sheet**: `/paperclip/company-brain/finance/INF-782_L6_Margin_Sheet.md`
+
+---
+
 ## Outstanding Actions
 
-1. **INF-844 Bangkok Electricity**: Awaiting amount confirmation from MD
-2. **Enable Google Sheets API** - Required before agent can add bills → Child issue INF-845 created
-3. **MD: Record ฿100,000 in FlowAccount** - Personal action requested
-4. **Clarify Document** (2026-08-11) - บริษัท_อินฟินิตี้_พาวเวอร์_89_จำกัด_B_1_บริษัท_หมงพลาซ่า_จำกัด_.pdf destination (Company Brain or Drive folder?)
+1. **INF-782 L6 Round-Lamp**: BLOCKED — MD must enable Google Sheets API (project 349113066501)
+2. **INF-844 Bangkok Electricity**: Awaiting amount confirmation from MD
+3. **Enable Google Sheets API** - Required before agent can add bills → Child issue INF-845 created
+4. **MD: Record ฿100,000 in FlowAccount** - Personal action requested
+5. **Clarify Document** (2026-08-11) - บริษัท_อินฟินิตี้_พาวเวอร์_89_จำกัด_B_1_บริษัท_หมงพลาซ่า_จำกัด_.pdf destination (Company Brain or Drive folder?)
 
 ---
 

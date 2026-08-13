@@ -1,0 +1,34 @@
+Item,Detail,Qty,Unit Cost,Total (CNY),Exchange Rate (THB/CNY),Total (THB),Notes
+,,,,,,
+INCOME,L6 Round Ceiling Lamp,,,,,
+,Quotation QT20260508001,185,฿400,฿74,000,,Ex-works sale price before VAT
+,VAT 7% on L6,185,฿28,฿5,180,,7% VAT on L6 portion
+,L6 Total incl VAT,185,฿428,฿79,180,,185 × ฿428
+,,,,,,
+TOTAL INCOME (L6),,185,,฿79,180,,Ex-works, before deducting cost
+,,,,,,
+EXPENSES - TEST ORDER,,,,,,
+,Taobao Order 5127311018371139829,7,¥15,¥105,5.20 PROVISIONAL,฿546 PROVISIONAL,Gold + cream-glass LED exposed-light round ceiling lamp
+,Cross-border Freight,7,,,TBD,,China to Thailand consolidated sea freight
+,Import Duty/Customs,7,,,TBD,,Approximately 30% on customs value
+,VAT on Import,7,,,TBD,,Domestic VAT recovery eligibility unknown
+,Thai Landed Cost Per Unit,,,,,,
+,,,,,,
+SUMMARY,,,,,,
+,L6 Sale Revenue (excl VAT),185,฿400,฿74,000,,
+,Test Order All-in Cost (7 units),7,,฿546 PROVISIONAL,,
+,Implied Full Order Cost (185 units),185,,฿14,429 PROVISIONAL,@ ฿546/unit extrapolation
+,Gross Margin (full order),185,,฿59,571 PROVISIONAL,,
+,Margin Per L6 Unit,1,,฿322 PROVISIONAL,฿400 - ฿78 = ฿322/unit
+,,,,,,
+MISSING INPUTS (REQUIRED FOR FINAL CALCULATION),,,,,,
+,CNY to THB exchange rate and date,,-,,,,2026-08-05 purchase date or actual payment date
+,Cross-border freight cost (China to Thailand),-,,,,
+,Import duty rate and customs valuation method,-,,,,
+,Domestic VAT treatment (recoverable vs cost),-,,,,
+,Payment evidence (Alipay/WeChat/bank record),-,,,,
+,,,,,,
+STATUS: PROVISIONAL,,,,,,
+This calculation uses PROVISIONAL exchange rate of 5.20 THB/CNY (approx mid-2026 estimate)
+Actual exchange rate on payment date (2026-08-05) required for accurate conversion
+All-in landed cost depends on confirmed freight, duty, and VAT treatment

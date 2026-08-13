@@ -1,6 +1,10 @@
 # Follow Up
 
-Last Updated: 2026-07-28 11:30
+Last Updated: 2026-08-13 (INF-858 calendar follow-up added)
+
+## 🔴 Important Update — 2026-08-13
+
+- [x] **MD ต้องการให้เรียกว่า "MD" แทน "CEO"** — อัพเดตใน Company Brain แล้ว (INF-856)
 
 ## 🔴 High Priority
 
@@ -52,3 +56,22 @@ Last Updated: 2026-07-28 11:30
 - [ ] Audit current AI provider/model usage and last 30 days of AI cost baseline for OpenAI migration target (INF-521).
 - [ ] Implement OpenAI model routing, prompt caching, and spend logging after baseline audit (INF-521).
 - [ ] Run 7-day OpenAI pilot and verify whether the 80% cost-reduction target is met without unacceptable quality loss (INF-521).
+
+## 2026-08-13 Update — INF-856 Communication Question
+
+MD ถามว่า: "เจอหลายครั้งแจ้งไป คนอื่นไม่เห็นทราบเรื่อง" ต้องทำยังไงครับ?
+
+**ช่องทางที่มี:**
+1. **Telegram** — ส่งข้อความถึงคนที่เกี่ยวข้องโดยตรง
+2. **Paperclip Issue** — สร้าง issue หรือ comment แล้ว tag คน
+3. **Company Brain** — บันทึกในไฟล์ที่เกี่ยวข้อง
+4. **Email/LINE** — ช่องทางอื่นที่ใช้อยู่
+
+**ต้องการให้ผมช่วยอะไรเพิ่มเติมไหมครับ?**
+
+## 2026-08-13 Update — INF-858 Calendar Follow-up (ไฟกลม)
+
+- [ ] **Calendar follow-up: ติดตามสถานะไฟกลม (Round lamp)** — วันที่ 17/08/2026 (INF-858)
+  - Context: INF-783 Taobao round-lamp order (178 units, ~$1,000 USD) blocked on MD design confirmation
+  - Action: Follow up on round lamp order status on August 17, 2026
+  - Note: Direct calendar creation not available (INF-224 pending); documented in follow_up.md for Telegram reminder on due date

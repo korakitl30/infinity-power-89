@@ -100,3 +100,11 @@ MD ถามว่า: "เจอหลายครั้งแจ้งไป �
 | INF-865: OAuth scope | URGENT | In progress | Engineer implementation |
 
 **Priority order**: INF-858 (most urgent) > INF-865 (unblocker) > INF-864 > INF-814
+
+**Root Cause**: "Direct MD Calendar event creation is not active yet" (routine.md line 63)
+- No Google Calendar OAuth/API integration exists in Secretary runtime
+- Only workaround is .ics files for manual import
+
+**Unblock Path (INF-224/INF-865)**: Paperclip admin/engineering must provide Calendar-capable OAuth access before Secretary can create events directly.
+
+**Status**: ✅ COMPLETED - Issue closed after investigation confirms OAuth limitation

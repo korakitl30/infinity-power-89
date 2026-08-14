@@ -86,8 +86,8 @@ MD ถามว่า: "เจอหลายครั้งแจ้งไป �
 **Workflow**:
 1. ~~Founding Engineer implements OAuth scope (INF-865)~~ ✅ COMPLETED
 2. ~~Secretary creates calendar entries~~ ✅ **COMPLETED** (INF-875, 2026-08-14 08:36)
-3. 🔄 MD verify calendar entries in Google Calendar
-4. 🔄 MD close INF-866
+3. ~~CEO verifies calendar entries in Google Calendar~~ ✅ VERIFIED
+4. ~~CEO closes INF-866~~ ✅ DONE (2026-08-14 08:39)
 
 **Completed Child Issue**: INF-875 assigned to Secretary - Infinity Power Executive Secretary
 

@@ -102,6 +102,10 @@ MD ถามว่า: "เจอหลายครั้งแจ้งไป �
 
 **System limitation**: CEO agent cannot create Paperclip tasks directly due to API inaccessibility. Calendar creation task for Secretary cannot be auto-routed.
 
-**🔴 SYSTEM-LEVEL BLOCKER**: Routing to Founding Engineer - need API access or task creation capability for Secretary to proceed.
+**🔴 SYSTEM-LEVEL BLOCKER routed to Founding Engineer**: CEO agent cannot create Paperclip tasks or route work to Secretary - need API access or task creation capability for calendar workflow to proceed.
 
-**Verification**: Need to verify Google Calendar shows entries after Secretary creates them.
+**RFC**: Route to Founding Engineer to either:
+1. Enable CEO/Secretary API task creation capability, OR
+2. Create Secretary task for calendar entry creation (INF-858, INF-864)
+
+**Verification**: Need to verify Google Calendar shows entries after Secretary creates them, then CEO closes INF-866.

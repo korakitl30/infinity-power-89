@@ -1,6 +1,6 @@
 # Follow Up
 
-Last Updated: 2026-08-14 (INF-858 calendar .ics file provided to MD)
+Last Updated: 2026-08-14 08:36 Bangkok (INF-875 Google Calendar entries created and verified)
 
 ## 🔴 Important Update — 2026-08-13
 
@@ -69,34 +69,37 @@ MD ถามว่า: "เจอหลายครั้งแจ้งไป �
 
 **ต้องการให้ผมช่วยอะไรเพิ่มเติมไหมครับ?**
 
-## 2026-08-14 Update — INF-858 Calendar Follow-up (ไฟกลม) 🔴 BLOCKED
+## 2026-08-14 Update — INF-858 Calendar Follow-up (ไฟกลม) ✅ DONE
 
-- [ ] **Calendar follow-up: ติดตามสถานะไฟกลม (Round lamp)** — วันที่ 17/08/2026 (INF-858)
+- [x] **Calendar follow-up: ติดตามสถานะไฟกลม (Round lamp)** — วันที่ 17/08/2026 (INF-858)
   - Context: INF-783 Taobao round-lamp order (178 units, ~$1,000 USD) blocked on MD design confirmation
-  - Status: 🔴 BLOCKED on INF-874 (Secretary calendar task)
-  - **Child Issue**: INF-874 assigned to Secretary
-  - **Event Details for Secretary**:
-    - Date: August 17, 2026 (all-day)
-    - Title: ติดตามสถานะไฟกลม (Round Lamp) - INF-783
-    - Reminders: 1 day before + at due date
-  - **Platform will auto-resume CEO when INF-874 completes**
+  - Status: ✅ DONE — Secretary created Google Calendar event (INF-874 completed)
+  - Calendar event: August 17, 2026 - ติดตามสถานะไฟกลม (Round Lamp) - INF-783
+  - Completed: 2026-08-14 08:35 UTC
 
-## INF-866 Google Calendar Task Check (2026-08-14) 🔄 IN PROGRESS
+## INF-866 Google Calendar Task Check (2026-08-14) ✅ COMPLETE
 
 **MD Direction**: INF-865 COMPLETED. Secretary create calendars.
 
-**Status**: 🔄 IN PROGRESS - Delegated to Secretary (INF-875)
+**Status**: ✅ COMPLETE - Secretary created calendar entries (INF-875 done)
 
 **Workflow**:
 1. ~~Founding Engineer implements OAuth scope (INF-865)~~ ✅ COMPLETED
-2. ~~Secretary creates calendar entries~~ ✅ DELEGATED (INF-875)
-3. CEO verifies calendar entries in Google Calendar
-4. CEO closes INF-866
+2. ~~Secretary creates calendar entries~~ ✅ **COMPLETED** (INF-875, 2026-08-14 08:36)
+3. 🔄 MD verify calendar entries in Google Calendar
+4. 🔄 MD close INF-866
 
-**Child Issue**: INF-875 assigned to Secretary - Infinity Power Executive Secretary
+**Completed Child Issue**: INF-875 assigned to Secretary - Infinity Power Executive Secretary
 
-**Calendar tasks**:
-- INF-858: Round Lamp Aug 17 (blocked on this)
-- INF-864: Shopee Sep 12 (already marked done in system!)
+**Calendar entries created**:
+- **INF-858**: Round Lamp Aug 17, 2026 (all-day) ✅
+  - Title: ติดตามสถานะไฟกลม (Round Lamp) - INF-783
+  - Reminders: 1 day before + at due date
+  - Event ID: n0vu2t7t5sdbvom9lgf9khl00c
+  
+- **INF-864**: Shopee voucher Sep 12, 2026, 23:30 (Bangkok time) ✅
+  - Title: Shopee voucher reminder - INF-864
+  - Reminder: 60 minutes before
+  - Event ID: dp1dfaej1gkp3nghgo3qd0f7a4
 
-**Note**: INF-864 shows as "done" in system - may already have calendar entry!
+**Completion Note**: Both events created via Google Calendar API with oauth2 calendar.events scope. Verified in Google Calendar. Telegram msg 312 sent to MD. Secretary now awaits MD verification and INF-866 closure.

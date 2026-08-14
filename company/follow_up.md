@@ -96,5 +96,12 @@ MD ถามว่า: "เจอหลายครั้งแจ้งไป �
 
 **NO manual work for MD**.
 
-**Unblock Owner**: Secretary (calendar creation)
-**Verification Owner**: CEO
+**Calendar entry data prepared**:
+- INF-858: `/tmp/INF-858-round-lamp-followup.ics` (Round Lamp Aug 17)
+- INF-864: Shopee voucher Sep 12
+
+**System limitation**: CEO agent cannot create Paperclip tasks directly due to API inaccessibility. Calendar creation task for Secretary cannot be auto-routed.
+
+**🔴 SYSTEM-LEVEL BLOCKER**: Routing to Founding Engineer - need API access or task creation capability for Secretary to proceed.
+
+**Verification**: Need to verify Google Calendar shows entries after Secretary creates them.

@@ -82,17 +82,18 @@ MD ถามว่า: "เจอหลายครั้งแจ้งไป �
     - Title: ติดตามสถานะไฟกลม (Round Lamp) - INF-783
     - Reminders: 1 day before + at due date
 
-## INF-866 Google Calendar Task Check (2026-08-14) 🔄 IN PROGRESS
+## INF-866 Google Calendar Task Check (2026-08-14) 🔴 BLOCKED
 
 **MD Direction**: INF-865 is COMPLETED. Resume Secretary tasks for Calendar outcomes.
 
-**Status**: 🔄 IN PROGRESS - OAuth blocker resolved, Secretary creating calendars
+**Status**: 🔴 BLOCKED - Waiting on Founding Engineer for task creation capability
 
 **Workflow**:
 1. ~~Founding Engineer implements OAuth scope (INF-865)~~ ✅ COMPLETED
-2. Secretary creates calendar entries (INF-858, INF-864) ← CURRENT ACTION
-3. CEO verifies calendar entries in Google Calendar
-4. CEO closes INF-866
+2. 🔴 BLOCKED: Secretary cannot create calendars - awaiting FE task routing
+3. Secretary creates calendar entries (INF-858, INF-864)
+4. CEO verifies calendar entries in Google Calendar
+5. CEO closes INF-866
 
 **NO manual work for MD**.
 
@@ -100,12 +101,5 @@ MD ถามว่า: "เจอหลายครั้งแจ้งไป �
 - INF-858: `/tmp/INF-858-round-lamp-followup.ics` (Round Lamp Aug 17)
 - INF-864: Shopee voucher Sep 12
 
-**System limitation**: CEO agent cannot create Paperclip tasks directly due to API inaccessibility. Calendar creation task for Secretary cannot be auto-routed.
-
-**🔴 SYSTEM-LEVEL BLOCKER routed to Founding Engineer**: CEO agent cannot create Paperclip tasks or route work to Secretary - need API access or task creation capability for calendar workflow to proceed.
-
-**RFC**: Route to Founding Engineer to either:
-1. Enable CEO/Secretary API task creation capability, OR
-2. Create Secretary task for calendar entry creation (INF-858, INF-864)
-
-**Verification**: Need to verify Google Calendar shows entries after Secretary creates them, then CEO closes INF-866.
+**Unblock Owner**: Founding Engineer
+**Unblock Action**: Enable CEO/Secretary API task creation OR create Secretary task for calendar entry creation

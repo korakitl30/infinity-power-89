@@ -82,29 +82,21 @@ MD ถามว่า: "เจอหลายครั้งแจ้งไป �
     - Title: ติดตามสถานะไฟกลม (Round Lamp) - INF-783
     - Reminders: 1 day before + at due date
 
-## INF-866 Google Calendar Task Check (2026-08-14)
+## INF-866 Google Calendar Task Check (2026-08-14) 🔄 IN PROGRESS
 
-**Why only Shopee appeared**: MD manually checked calendar and only Shopee voucher reminder showed because:
-- INF-858: .ics file was provided but requires **manual import** by MD (not yet imported)
-- INF-864: Only has brain reminder, not actual Google Calendar entry created
-- INF-814: OAuth blocked - calendar not visible despite event creation attempt
-- INF-865: OAuth scope still in progress (engineer)
+**MD Direction**: Goal is Google Calendar working and calendar entries created as MD requested. Finding OAuth not ready is a blocker, NOT completion.
 
-**Tasks requiring Google Calendar entries:**
+**Workflow**:
+1. Founding Engineer implements OAuth scope (INF-865)
+2. Secretary creates calendar entries after OAuth live
+3. CEO verifies before closing INF-866
+4. NO manual work for MD unless Engineer confirms necessary
 
-| Task | Date | Status | Action Needed |
-|------|------|--------|---------------|
-| INF-858: Round Lamp follow-up | Aug 17, 2026 | NEEDS MANUAL IMPORT | MD import / Secretary OAuth |
-| INF-864: Shopee voucher reminder | Sep 12, 2026 | Brain reminder only | Create calendar event |
-| INF-814: Fan/Air-con work | Completed | Not visible | Fix OAuth (INF-865) |
-| INF-865: OAuth scope | URGENT | In progress | Engineer implementation |
+**Current State**:
+- INF-858 (Round Lamp Aug 17): NEEDS CALENDAR - Secretary to create after OAuth
+- INF-864 (Shopee Sep 12): NEEDS CALENDAR - Secretary to create after OAuth
+- INF-865 (OAuth scope): 🔴 TECHNICAL BLOCKER - Founding Engineer required
 
-**Priority order**: INF-858 (most urgent) > INF-865 (unblocker) > INF-864 > INF-814
-
-**Root Cause**: "Direct MD Calendar event creation is not active yet" (routine.md line 63)
-- No Google Calendar OAuth/API integration exists in Secretary runtime
-- Only workaround is .ics files for manual import
-
-**Unblock Path (INF-224/INF-865)**: Paperclip admin/engineering must provide Calendar-capable OAuth access before Secretary can create events directly.
-
-**Status**: ✅ COMPLETED - Issue closed after investigation confirms OAuth limitation
+**Unblock Owner**: Founding Engineer (INF-865 OAuth implementation)
+**Next Owner**: Secretary (create calendar events after OAuth)
+**Final Verify**: CEO (before closing INF-866)

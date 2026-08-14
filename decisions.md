@@ -24,3 +24,15 @@
 - MD direction from Telegram assignment INF-521: move company AI usage toward OpenAI with an 80% cost-reduction target.
 - Execution control: do not declare the 80% reduction complete until current AI provider/model usage and monthly baseline cost are audited, OpenAI routing is piloted, and cost/quality metrics are compared.
 - Cost strategy recorded in `company/ai-cost-reduction-openai-2026-08-01.md`: use cheaper OpenAI models for routine work, prompt caching for repeated Company Brain context, and Batch API/Flex processing for eligible asynchronous workloads.
+
+## 2026-08-14
+- **MD Decision (INF-877, INF-879)**: Telegram has been disabled from Infinity Power 89 operations effective immediately.
+- **New operating model**: MD → CEO → Responsible Agent → Actual External Outcome → Verification → CEO → MD
+- **Telegram delivery is NOT evidence of business task completion.** Only external business outcomes (verified by CEO) constitute completion.
+- **All prior Telegram-based routines are superseded**:
+  - ❌ No more "Secretary Telegram 4-hour intake" polling (was `0 */4 * * * Etc/UTC`)
+  - ❌ No more "Secretary morning follow-up reminder" via Telegram (was `0 9 * * * Asia/Bangkok`)
+  - ❌ No more direct Telegram task creation on MD assignment messages
+  - ❌ No more Telegram image/file intake or acknowledgements
+- **Control path**: All follow-ups, assignments, and acknowledgements now flow through CEO coordination and Paperclip issues.
+- **Company Brain unchanged**: Historical Telegram references remain for audit trail; marked as superseded by this 2026-08-14 decision. New operational procedures documented in this decision log and updated agent instructions (AGENTS.md).

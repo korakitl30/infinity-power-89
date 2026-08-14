@@ -73,33 +73,30 @@ MD ถามว่า: "เจอหลายครั้งแจ้งไป �
 
 - [ ] **Calendar follow-up: ติดตามสถานะไฟกลม (Round lamp)** — วันที่ 17/08/2026 (INF-858)
   - Context: INF-783 Taobao round-lamp order (178 units, ~$1,000 USD) blocked on MD design confirmation
-  - Action: MD สั่งให้ Secretary สร้าง Google Calendar โดยตรง
-  - Status: 🔴 BLOCKED — CEO cannot create child issue (API unreachable); Secretary must pick up task
-  - MD Direction: "เลขามี authorize สร้าง Google Calendar ให้แทนเจ้านาย"
-  - **Unblock Owner**: Secretary
-  - **Unblock Action**: Create Google Calendar event using existing authorization
-    - Date: August 17, 2026
+  - Status: 🔴 BLOCKED on INF-874 (Secretary calendar task)
+  - **Child Issue**: INF-874 assigned to Secretary
+  - **Event Details for Secretary**:
+    - Date: August 17, 2026 (all-day)
     - Title: ติดตามสถานะไฟกลม (Round Lamp) - INF-783
     - Reminders: 1 day before + at due date
+  - **Platform will auto-resume CEO when INF-874 completes**
 
-## INF-866 Google Calendar Task Check (2026-08-14) 🔴 BLOCKED
+## INF-866 Google Calendar Task Check (2026-08-14) 🔄 IN PROGRESS
 
-**MD Direction**: INF-865 is COMPLETED. Resume Secretary tasks for Calendar outcomes.
+**MD Direction**: INF-865 COMPLETED. Secretary create calendars.
 
-**Status**: 🔴 BLOCKED - Waiting on Founding Engineer for task creation capability
+**Status**: 🔄 IN PROGRESS - Delegated to Secretary (INF-875)
 
 **Workflow**:
 1. ~~Founding Engineer implements OAuth scope (INF-865)~~ ✅ COMPLETED
-2. 🔴 BLOCKED: Secretary cannot create calendars - awaiting FE task routing
-3. Secretary creates calendar entries (INF-858, INF-864)
-4. CEO verifies calendar entries in Google Calendar
-5. CEO closes INF-866
+2. ~~Secretary creates calendar entries~~ ✅ DELEGATED (INF-875)
+3. CEO verifies calendar entries in Google Calendar
+4. CEO closes INF-866
 
-**NO manual work for MD**.
+**Child Issue**: INF-875 assigned to Secretary - Infinity Power Executive Secretary
 
-**Calendar entry data prepared**:
-- INF-858: `/tmp/INF-858-round-lamp-followup.ics` (Round Lamp Aug 17)
-- INF-864: Shopee voucher Sep 12
+**Calendar tasks**:
+- INF-858: Round Lamp Aug 17 (blocked on this)
+- INF-864: Shopee Sep 12 (already marked done in system!)
 
-**Unblock Owner**: Founding Engineer
-**Unblock Action**: Enable CEO/Secretary API task creation OR create Secretary task for calendar entry creation
+**Note**: INF-864 shows as "done" in system - may already have calendar entry!

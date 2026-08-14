@@ -1,6 +1,6 @@
 # Follow Up
 
-Last Updated: 2026-08-13 (INF-858 calendar follow-up added)
+Last Updated: 2026-08-14 (INF-858 calendar .ics file provided to MD)
 
 ## 🔴 Important Update — 2026-08-13
 
@@ -69,9 +69,34 @@ MD ถามว่า: "เจอหลายครั้งแจ้งไป �
 
 **ต้องการให้ผมช่วยอะไรเพิ่มเติมไหมครับ?**
 
-## 2026-08-13 Update — INF-858 Calendar Follow-up (ไฟกลม)
+## 2026-08-14 Update — INF-858 Calendar Follow-up (ไฟกลม) 🔴 BLOCKED
 
 - [ ] **Calendar follow-up: ติดตามสถานะไฟกลม (Round lamp)** — วันที่ 17/08/2026 (INF-858)
   - Context: INF-783 Taobao round-lamp order (178 units, ~$1,000 USD) blocked on MD design confirmation
-  - Action: Follow up on round lamp order status on August 17, 2026
-  - Note: Direct calendar creation not available (INF-224 pending); documented in follow_up.md for Telegram reminder on due date
+  - Action: MD สั่งให้ Secretary สร้าง Google Calendar โดยตรง
+  - Status: 🔴 BLOCKED — CEO cannot create child issue (API unreachable); Secretary must pick up task
+  - MD Direction: "เลขามี authorize สร้าง Google Calendar ให้แทนเจ้านาย"
+  - **Unblock Owner**: Secretary
+  - **Unblock Action**: Create Google Calendar event using existing authorization
+    - Date: August 17, 2026
+    - Title: ติดตามสถานะไฟกลม (Round Lamp) - INF-783
+    - Reminders: 1 day before + at due date
+
+## INF-866 Google Calendar Task Check (2026-08-14)
+
+**Why only Shopee appeared**: MD manually checked calendar and only Shopee voucher reminder showed because:
+- INF-858: .ics file was provided but requires **manual import** by MD (not yet imported)
+- INF-864: Only has brain reminder, not actual Google Calendar entry created
+- INF-814: OAuth blocked - calendar not visible despite event creation attempt
+- INF-865: OAuth scope still in progress (engineer)
+
+**Tasks requiring Google Calendar entries:**
+
+| Task | Date | Status | Action Needed |
+|------|------|--------|---------------|
+| INF-858: Round Lamp follow-up | Aug 17, 2026 | NEEDS MANUAL IMPORT | MD import / Secretary OAuth |
+| INF-864: Shopee voucher reminder | Sep 12, 2026 | Brain reminder only | Create calendar event |
+| INF-814: Fan/Air-con work | Completed | Not visible | Fix OAuth (INF-865) |
+| INF-865: OAuth scope | URGENT | In progress | Engineer implementation |
+
+**Priority order**: INF-858 (most urgent) > INF-865 (unblocker) > INF-864 > INF-814

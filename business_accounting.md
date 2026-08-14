@@ -167,24 +167,26 @@ This file tracks business expenses and accounting entries for Infinity Power.
 | **Gross margin (full order)** | **~฿59,571** |
 | **Margin per unit** | **~฿322/unit** |
 
-### Missing Inputs Required
+### Missing Inputs Required (to be reported to INF-781)
 1. **CNY to THB exchange rate** on payment date (2026-08-05 or actual deduction date)
 2. **Cross-border freight cost** (China to Thailand consolidated sea freight quote)
 3. **Import duty rate** and customs valuation method
 4. **VAT treatment** in Thailand (recoverable input tax or cost)
 5. **Payment evidence** (Alipay/WeChat/bank record for ¥105 deduction)
 
-### MD Request (2026-08-13)
-**Request**: "บัญชีช่วยสร้าง google sheet คำนวณให้ผมเห็นทั้งรายรับ ค่าใช้จ่าย ของงานนี้ให้ทีครับ"
-**Translation**: Create a Google Sheet showing income and expenses for this job
+### MD Request (2026-08-13 & 2026-08-14)
+**Request 1**: "บัญชีช่วยสร้าง google sheet คำนวณให้ผมเห็นทั้งรายรับ ค่าใช้จ่าย ของงานนี้ให้ทีครับ"
+**Request 2 (2026-08-14)**: "แจ้งให้ engineer ทำให้เลยครับ" — MD directive to proceed
 
-**Blocker**: Google Sheets API is not enabled in Google Cloud project `349113066501`. Agent cannot create sheets programmatically.
-**Unblock Owner**: MD
-**Unblock Action**: Enable Sheets API at https://console.developers.google.com/apis/api/sheets.googleapis.com/overview?project=349113066501
+**Status**: `blocked` — No Google OAuth credentials available for agent to create Sheets
 
-**Workaround Created**: Markdown income/expense sheet at `/paperclip/company-brain/finance/INF-782_L6_Margin_Sheet.md` — MD can manually create Google Sheet from this data or enable API for agent automation.
+**Blocker Owner**: MD
+**Blocker Action**: Provide one of the following:
+1. Service Account JSON credentials for Google Cloud project `infinity-power-secretary`
+2. OAuth client_id + client_secret for Sheets API
+3. Share existing Google Sheet with agent's email (korakit.l30@gmail.com)
 
-**INF-782 Status**: `blocked` — waiting for MD to enable Google Sheets API
+**Workaround**: Markdown income/expense sheet at `/paperclip/company-brain/finance/INF-782_L6_Margin_Sheet.md`
 
 ### Output Files
 - **CSV**: `/paperclip/company-brain/finance/INF-782_L6_RoundLamp_Margin_Calculation.csv`
@@ -194,7 +196,9 @@ This file tracks business expenses and accounting entries for Infinity Power.
 
 ## Outstanding Actions
 
-1. **INF-782 L6 Round-Lamp**: BLOCKED — MD must enable Google Sheets API (project 349113066501)
+1. **INF-782 L6 Round-Lamp**: BLOCKED — awaiting MD Google credentials for Sheets API
+   - Work products: CSV + Markdown margin sheet (PROVISIONAL ~฿322/unit, ~฿59,571 gross margin)
+   - **Missing inputs to report to INF-781**: CNY→THB rate, freight, import duty, VAT treatment, payment evidence
 2. **INF-844 Bangkok Electricity**: Awaiting amount confirmation from MD
 3. **Enable Google Sheets API** - Required before agent can add bills → Child issue INF-845 created
 4. **MD: Record ฿100,000 in FlowAccount** - Personal action requested

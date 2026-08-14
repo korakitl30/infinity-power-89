@@ -82,21 +82,19 @@ MD ถามว่า: "เจอหลายครั้งแจ้งไป �
     - Title: ติดตามสถานะไฟกลม (Round Lamp) - INF-783
     - Reminders: 1 day before + at due date
 
-## INF-866 Google Calendar Task Check (2026-08-14) 🔄 IN PROGRESS
+## INF-866 Google Calendar Task Check (2026-08-14) 🔴 BLOCKED
 
-**MD Direction**: Goal is Google Calendar working and calendar entries created as MD requested. Finding OAuth not ready is a blocker, NOT completion.
+**MD Direction**: Goal is Google Calendar working and calendar entries created as MD requested.
+
+**Status**: 🔴 BLOCKED - Waiting on Founding Engineer (INF-865)
 
 **Workflow**:
-1. Founding Engineer implements OAuth scope (INF-865)
-2. Secretary creates calendar entries after OAuth live
-3. CEO verifies before closing INF-866
-4. NO manual work for MD unless Engineer confirms necessary
+1. Founding Engineer implements OAuth scope (INF-865) ← CURRENT BLOCKER
+2. Secretary creates calendar entries (INF-858, INF-864) after OAuth live
+3. CEO verifies calendar entries in Google Calendar
+4. CEO closes INF-866
 
-**Current State**:
-- INF-858 (Round Lamp Aug 17): NEEDS CALENDAR - Secretary to create after OAuth
-- INF-864 (Shopee Sep 12): NEEDS CALENDAR - Secretary to create after OAuth
-- INF-865 (OAuth scope): 🔴 TECHNICAL BLOCKER - Founding Engineer required
+**NO manual work for MD** unless Engineer confirms necessary.
 
-**Unblock Owner**: Founding Engineer (INF-865 OAuth implementation)
-**Next Owner**: Secretary (create calendar events after OAuth)
-**Final Verify**: CEO (before closing INF-866)
+**Unblock Owner**: Founding Engineer
+**Unblock Action**: Implement Google Calendar OAuth scope (calendar.events.create)

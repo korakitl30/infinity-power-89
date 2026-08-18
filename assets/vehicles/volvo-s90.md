@@ -270,3 +270,31 @@ Source: INF-299 attachment from MD, 2026-07-28.
   8. ค่าแรง — 1,200 บาท
 - Closeout status: final receipt received and vehicle maintenance/repair bill recorded.
 - Follow-up note: keep the original receipt image with vehicle evidence; use this entry for future maintenance history and cost reference.
+
+## 2026-08-18 Update — Current Insurance/Tax Document Verification Reassessment (INF-206)
+
+Source: INF-206 re-activation via board emergency contingency unblock (2026-08-18).
+
+- Status: INF-206 issue re-activated from blocked → in_progress after board emergency resolution
+- Verification reassessment date: 2026-08-18 (23 days after initial 2026-07-26 verification)
+- Review scope: Confirmed no new documents uploaded since 2026-07-26 Company Brain assessment
+
+### Current Document Status — No Change
+
+**Voluntary Motor Insurance**: Latest available coverage ended 2023-11-20 at 16:30 (expired 2 years 9 months ago).  
+**Compulsory Insurance (พ.ร.บ.)**: Latest available coverage ended 2024-12-04 at 16:30 (expired 1 year 8 months ago).  
+**Annual Vehicle Tax**: Latest available payment (dated 2023-12-04) shows next tax expiry 2024-02-18 (expired 1 year 6 months ago).
+
+- Drive folder `VOLVO` re-checked (2026-08-18); no new documents found beyond 2026-07-28
+- No voluntary insurance policy renewal since 2565-2566 (Nov 2023)
+- No compulsory insurance renewal since 2566-2567 (Dec 2024)
+- No annual tax payment evidence since 2023-12-04
+
+### Required Action for Task Completion
+
+**Blocker**: MD/vehicle owner must provide current or renewed documents for any of the three categories:
+- Current voluntary motor insurance policy (if renewed after Nov 2023), or confirmation that vehicle is uninsured
+- Current compulsory insurance / พ.ร.บ. certificate (if renewed after Dec 2024), or proof of exemption/lapse
+- Current annual vehicle tax receipt or proof of payment (if renewed after Feb 2024)
+
+**Follow-up**: Without these documents, the issue cannot be marked verified/complete. Awaiting MD clarification or document upload to proceed.

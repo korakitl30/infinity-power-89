@@ -322,3 +322,45 @@ All systems nominal. No critical alerts beyond INF-832 outcome verification. Awa
   - RAW file delivery status
 - **Next scheduled intake**: ~02:00 Bangkok (next day, Aug 13)
 - **Operational status**: Monitoring mode continues
+
+---
+
+## 2026-08-18 12:42 Bangkok — INF-904 RESCHEDULED PHOTOGRAPHY SESSION EXECUTION
+
+**🎯 CRITICAL PROJECT**: Supermom sunscreen cream RAW photography (reschedule from expired INF-832)
+
+### Status Summary
+- **Issue**: INF-904 (RESCHEDULED)
+- **Deadline**: 2026-08-20 12:29 Bangkok (48-hour window)
+- **CEO Authorization**: ✅ Approved reschedule on 2026-08-18 12:29 Bangkok
+- **Current Action**: Photographer contact inquiry (2 primary candidates identified)
+
+### Execution Progress (2026-08-18)
+1. ✅ Located Lukfoto Photography contact (email, Instagram, website)
+2. ✅ Located Bangkok Productions contact (email, phone, website)
+3. ✅ Drafted professional RAW photography inquiry emails (both photographers)
+4. ⏳ Awaiting CEO/MD to transmit email inquiries OR authorize direct phone contact
+5. ⏳ Pending photographer response and session scheduling
+
+### Photographer Details
+| Photographer | Email | Phone | Rate | RAW Turnaround | Status |
+|--------------|-------|-------|------|----------------|--------|
+| **Lukfoto** (PRIMARY) | luk@lukfoto.com | — | 11k THB | 24h | Contact found ✅ |
+| **Bangkok Productions** (SECONDARY) | [email protected] | +66 086-655-5936 | TBD | TBD | Contact found ✅ |
+
+### Critical Path
+1. Email transmission to both photographers (immediate — CEO/MD action required)
+2. Photographer confirmation of availability (same-day or next-day)
+3. Session scheduling and confirmation
+4. RAW photo session execution (2026-08-19 or 2026-08-20)
+5. RAW file delivery and CEO notification
+6. Update parent issue INF-832 with completion
+
+### Timeline Risk
+- Created: 2026-08-18 12:29 Bangkok
+- Action initiated: 2026-08-18 12:35 Bangkok
+- Deadline: 2026-08-20 12:29 Bangkok (46h 54m remaining)
+- Email transmission delay risk: High (awaiting CEO/MD coordination)
+
+### Next Checkpoint
+⏳ Awaiting CEO/MD response to photographer inquiry transmission request within next 2-4 hours to maintain execution timeline.

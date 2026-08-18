@@ -76,4 +76,31 @@ May contain pricing info in parent scope. Check INF-884 comments for selling pri
 ---
 
 **Created**: 2026-08-18 (Agent 7c12ca06...)  
-**Status**: BLOCKED — Awaiting selling price input
+**Status**: BLOCKED — Awaiting selling price input  
+**Final Disposition**: Issue marked BLOCKED with clear blocker owner (MD/CEO) and unblock action
+
+## Final Comment for Issue
+
+🔴 **BLOCKED** — Missing critical data for calculation
+
+**Data Available:**
+- Product: L4 wall-mounted pendant lamp (4 units)
+- Unit cost: 820 CNY/lamp
+- Location: 15th-floor hotel conference room
+- Status: Manufacturing in progress (1 delivered, 3 pending)
+
+**Missing Critical Data:**
+❓ **Selling price per lamp (ราคาขาย/โคม)** in THB or CNY
+
+**Cannot Calculate Without Price:**
+1. Total selling revenue
+2. Profit per lamp & total profit  
+3. Gross margin %
+
+**Blocker Owner:** MD or CEO  
+**Blocker Action:** Provide selling price per lamp
+
+**Next Step:** Once price is provided, all calculations will be completed immediately.
+
+---
+**Work Product:** Created `/repo/daily/INF-888-status.md` with blocker framework (Commit b3f1a31)

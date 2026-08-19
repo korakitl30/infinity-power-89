@@ -98,6 +98,24 @@ This file tracks business expenses and accounting entries for Infinity Power.
 
 ---
 
+## 2026-08-19: Sriracha House JCB Clearing (Round 2) - INF-908
+
+**Issue**: INF-908 — ลงบันทึกบัญชีบ้านศรีราชา (Record Si Racha house expenses)
+**Status**: RECORDED ✅ (2026-08-19)
+
+### Entry 1: JCB Truck Clearing - Round 2 (2026-08-19)
+- **Amount**: ฿5,100 THB
+- **Description**: ค่ารถ JCB เคลียร์พื้นที่ รอบ 2 (JCB truck clearing Round 2)
+- **Payer**: โจ (Jo paid in advance)
+- **Date**: 19/08/69 (2026-08-19)
+- **Property**: บ้านศรีราชา (Si Racha house)
+- **Google Sheet**: https://docs.google.com/spreadsheets/d/1igcCOh56rvOJUH1C9xlW_OJvTyIpViencQAmphdG1b0
+- **Drive Folder**: https://drive.google.com/drive/folders/1GrSaXYADQrZgfs5_ubk37LQfi_iSfyFO
+- **Receipt**: Image attached to INF-908 (asset ID: 9055cc74-8f1d-460b-a54b-c9351d301df8)
+- **Status**: ⏳ Awaiting Google Sheets entry (API requires credentials)
+
+---
+
 ## 2026-08-13: Personal Expense Tracker - MD (New System)
 
 **Issue**: INF-844 (additional task request 2026-08-13 04:18 Bangkok)
